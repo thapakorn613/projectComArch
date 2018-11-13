@@ -16,13 +16,10 @@ def J_type(instruction):
     regB=str(regB) 
     regA=regA.zfill(3)
     regB=regB.zfill(3)
-    zero="0000000000000000"
-    obcode="101"
-    zeroBack="0000000"
-    matchineCode=zero+regB+regA+obcode+zeroBack
-    print(regA,regB) 
+    zero = "0000000000000000"
+    obcode = "101"
+    zeroBack = "0000000"
+    matchineCode= zeroBack + obcode + regA + regB + zero
+    #print(regA,regB)
     print(matchineCode)
-    return matchineCode;   
-
-J_type(instruction=instruction)
-  
+    return matchineCode;
