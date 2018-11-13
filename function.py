@@ -20,3 +20,11 @@ def error_detect(mchcodee):
         print('ERROR syntax error!!!!')
     else:
         print('Anything is pass!!!')
+
+
+def isint(value):
+    try:
+        int(value)
+        return True
+    except ValueError:
+        return False

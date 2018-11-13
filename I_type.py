@@ -14,8 +14,9 @@ def iType(message):
         opcode = "011"
     elif messageSplit[1] == "beq":
         opcode = "100"
-    else:
-        opcode = "000"  # for check error
+        print('im here')
+    #else:
+        #opcode = "000"  # for check error
     # ------------ create RS -----------------
     temprs = int(messageSplit[2])
     rs = convert.numToBinary(temprs, 3)

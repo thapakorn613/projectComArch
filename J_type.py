@@ -3,7 +3,6 @@ instruction="start jalr   2   4"
     
 def J_type(instruction):
     totalWords = sum(1 for word in instruction.split() if word.isalpha())
-    print(totalWords)
     if(totalWords>1):
         able,command,regA,regB=instruction.split()
     else:
