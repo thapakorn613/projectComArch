@@ -14,8 +14,9 @@ def error_detect(mchcodee):
 
     if len(mchcodee)!= 32:
         print('ERROR Machinecode out of bound!!!')
-    elif mchcodee[22:25] not in listop: # opcode check
+    elif mchcodee[7:10] not in listop: # opcode check
         print('ERROR Opcode not found!!!')
-    elif mchcodee[25:32] != '0000000': # bit 25-31 is 0
+    elif mchcodee[0:7] != '0000000': # bit 25-31 is 0
         print('ERROR syntax error!!!!')
-    else: print('Anything is pass!!!')
+    else:
+        print('Anything is pass!!!')

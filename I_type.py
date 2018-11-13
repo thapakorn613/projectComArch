@@ -2,11 +2,11 @@
 import reg as reg
 import mem as mem
 import function as convert
-import function as error_detect
 
 def iType(message):
-    messageSplit = message.split()
-    print(messageSplit)
+    zero = "0000000"
+    #messageSplit = message.split()
+    messageSplit = message.rstrip().split('\t');
     # ----------------------------------------
     if messageSplit[1] == "lw":
         opcode = "010"
@@ -16,18 +16,13 @@ def iType(message):
         opcode = "100"
     else:
         opcode = "000"  # for check error
-    # ----------------------------------------
-
     # ------------ create RS -----------------
     temprs = int(messageSplit[2])
     rs = convert.numToBinary(temprs, 3)
-    # ----------------------------------------
     # ------------ create RS -----------------
     temprt = int(messageSplit[3])
     rt = convert.numToBinary(temprt, 3)
-    # ----------------------------------------
     # ------------ create RS -----------------
-    offsetField = ""
     if messageSplit[4] == mem.label:  # string other
         tempOffset = mem.addessPC
     else:
@@ -36,13 +31,13 @@ def iType(message):
     offsetField = convert.numToBinary(int_Offset, 16)
     # ----------------------------------------
     # ------------ merge code to Machine Language --------
-    machineCode = opcode + rs + rt + offsetField
+    machineCode = zero + opcode + rs + rt + offsetField
     # ----------------------------------------------------
-    print("opcode : " + opcode)
-    print("rs : " + rs)
-    print("rt : " + rt)
-    print("offsetField : " + offsetField)
-    #print("machineCode : " + machineCode)
+    #print("opcode : " + opcode)
+    #print("rs : " + rs)
+    #print("rt : " + rt)
+    #print("offsetField : " + offsetField)
+    print("machineCode : " + machineCode)
     return machineCode
 
 def numToBinary(n,rangeOffbit):

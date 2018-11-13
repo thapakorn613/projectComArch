@@ -3,16 +3,14 @@ import I_type as itype
 import J_type as jtype
 import function as error_detect
 
-
 def write(code):
     f = open('file/MachineCode.txt', 'a')
     f.write(code + '\n')
     f.close()
 
-def start():
-    file = open('file/myconfig1.txt', 'r')
+def read(filePath):
+    file = open(filePath, 'r')
     label = []
-
 
     for i in range(100):
         s = file.readline()
@@ -48,7 +46,7 @@ def start():
             print('= J-type')
             mchcode = jtype.J_type(instruction)
         # ------------------------------------------
-        error_detect(mchcode) # Error detect function
-        write.write(mchcode) # Write to file
-    return mchcode
+        error_detect.error_detect(mchcode) # Error detect function
+        write(mchcode) # Write to file
+    #return mchcode
     file.close()
