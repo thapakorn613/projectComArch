@@ -1,7 +1,8 @@
 
 import reg as reg
 import mem as mem
-import convertTobinary as convert
+import function as convert
+import function as error_detect
 
 def iType(message):
     messageSplit = message.split()

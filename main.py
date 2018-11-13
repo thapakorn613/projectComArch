@@ -1,7 +1,7 @@
 #!/usr/bin/python\
 import reg as reg
 import mem as mem
-import convertTobinary as convert
+import function as function
 import  J_type as jtype
 import I_type as itype
 
