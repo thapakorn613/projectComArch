@@ -1,12 +1,11 @@
 def oType (assembly):
     zero = "00000000"
     zeroOfInstruction = "000000000000000000000"
-    inst = assembly.split('\t')
-    inst[1] = str(inst[1])
-    print("inst[1]:"+inst[1])
-    if ( inst[1] == 'halt'):
+    temp_inst = assembly.split('\t')
+    inst = (str(temp_inst[1])).split('\n')
+    if ( inst[0] == 'halt'):
         opcode = '110'
-    elif ( inst[1] == 'noop'):
+    elif ( inst[0] == 'noop'):
         opcode = '111'
     else:
         opcode = 'error'

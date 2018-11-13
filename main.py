@@ -44,7 +44,8 @@ for i in range(num_lines):
     if d[1] == 'add' or d[1] == 'nand':
         # callR-type
         print('= R-type')
-        #mchcode = rtype.run_R_type(instruction)
+        mchcode = rtype.run_R_type(instruction)
+        print ("mcgcode : "+mchcode)
     elif d[1] == 'lw' or d[1] == 'sw' or d[1] == 'beq':
         # callI-type
         print('= I-type')
