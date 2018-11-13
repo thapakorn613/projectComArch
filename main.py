@@ -6,8 +6,6 @@ import J_type as jtype
 import I_type as itype
 import toFile as toFile
 
-instruction="start jalr   2   4" # test J type
-opcode = ""
 filePath = "file/testFunction.txt"
 toFile.read(filePath)
 

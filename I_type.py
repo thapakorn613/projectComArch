@@ -33,10 +33,6 @@ def iType(message):
     # ------------ merge code to Machine Language --------
     machineCode = zero + opcode + rs + rt + offsetField
     # ----------------------------------------------------
-    #print("opcode : " + opcode)
-    #print("rs : " + rs)
-    #print("rt : " + rt)
-    #print("offsetField : " + offsetField)
     print("machineCode : " + machineCode)
     return machineCode
 

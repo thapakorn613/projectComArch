@@ -11,8 +11,8 @@ def write(code):
 def read(filePath):
     file = open(filePath, 'r')
     label = []
-
-    for i in range(100):
+    num_lines = sum(1 for line in open(filePath))
+    for i in range(num_lines):
         s = file.readline()
 
         if s == '':  # check file end
@@ -22,11 +22,12 @@ def read(filePath):
         print('----------------------------------------------')
         print(d)
         # -------- Label ERROR!!! constraints check --------
-        if (d[0] in label):
-            print('ERROR label constraints!!!')
-            break
+
         if d[0] != '':
-            label.append(d[0])
+            if (d[0] in label):
+                print('ERROR label constraints!!!')
+                break
+        label.append(d[0])
         # ------------------ TYPE -------------------
         if d[1] == 'add' or d[1] == 'nand':
             # callR-type
@@ -48,5 +49,7 @@ def read(filePath):
         # ------------------------------------------
         error_detect.error_detect(mchcode) # Error detect function
         write(mchcode) # Write to file
-    #return mchcode
+
+    for u in range(len(label)):
+        print('Address[', u , ']=', label[u])
     file.close()
