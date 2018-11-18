@@ -7,6 +7,20 @@ def numToBinary(n,rangeOffbit):
     result = result[::-1]
     return result
 
+def binToDecimal(str):
+    n = 0
+    temp = 0
+    sum = 0
+    str_exe = list (str)
+    for x in reversed(str_exe):
+        if x == "1":
+            temp = 2 ** n
+        elif x == "0":
+            temp = 0
+        sum = sum + temp
+        n = n + 1
+    return sum
+
 # ---------------- Error check ------------------
 # not complete all
 def error_detect(mchcodee):

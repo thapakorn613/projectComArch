@@ -42,40 +42,28 @@ for i in range(num_lines):
     label.append(d[0])
     # ------------------ TYPE -------------------
     if d[1] == 'add' or d[1] == 'nand':
-        # callR-type
-        print('= R-type')
         mchcode = rtype.rType(instruction)
         toFile.write(mchcode)
-        print("mcgcode[bin] : "+mchcode)
+        print("mcgcode[bin] : ",mchcode)
+        print("mcgcode[dec] : ",function.binToDecimal(mchcode))
     elif d[1] == 'lw' or d[1] == 'sw' or d[1] == 'beq':
         # callI-type
-        print('= I-type')
         mchcode = itype.iType(instruction)
         toFile.write(mchcode)
-        print("mcgcode[bin] : "+ mchcode)
+        print("mcgcode[bin] : "+mchcode)
+        print("mcgcode[dec] : ",function.binToDecimal(mchcode))
     elif d[1] == 'halt' or d[1] == 'noop':
         # callO-type
-        print('= O-type')
         mchcode = otype.oType(instruction)
         toFile.write(mchcode)
-        print("mcgcode[bin] : " + mchcode)
-    elif d[1] == '.fill':
-        # call.fill
-        print('= .fill')
+        print("mcgcode[bin] : "+mchcode)
+        print("mcgcode[dec] : ",function.binToDecimal(mchcode))
     elif d[1] == 'jalr':
-        print('= J-type')
         mchcode = jtype.jType(instruction)
         toFile.write(mchcode)
-        print("mcgcode[bin] : " + mchcode)
+        print("mcgcode[bin] : "+mchcode)
+        print("mcgcode[dec] : ",function.binToDecimal(mchcode))
     # ------------------------------------------
     function.error_detect(mchcode) # Error detect function
     toFile.write(mchcode) # Write to file
 print('----------------------------------------------')
-print ("label ",label)
-
-
-
-# --------------- Beginnig I type ---------
-#machineLanguage = itype.iType(machineLanguage)
-#print ("machineLanguage [ I type ] : " + machineLanguage)
-#print ("machineLanguage [ J type ] :  : "+ jtype.J_type(instruction))
