@@ -21,7 +21,6 @@ def error_detect(mchcodee):
     else:
         print('Anything is pass!!!')
 
-
 def isint(value):
     try:
         int(value)

@@ -3,6 +3,15 @@ filllist = []
 filllist2 = []
 numline = 0
 
+def numToBinary(n,rangeOffbit):
+    result = ''
+    for x in range(rangeOffbit):
+        r = n % 2
+        n = n // 2
+        result += str(r)
+    result = result[::-1]
+    return result
+
 def write(code):
     f = open('file/MachineCode.txt', 'a')
     f.write(code + '\n')
@@ -12,8 +21,8 @@ def write_for_fill(code):
     f = open('file/fillcode.txt', 'w')
     for i in range(len(code)):
         if code[i] != '':
+            #print ("code[i] : ",code[i])
             f.write('\t' + code[i])
-
     f = open('file/fillcode.txt', 'r')
     s = f.readline()
     f.close()

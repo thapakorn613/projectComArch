@@ -1,7 +1,7 @@
 instruction="start jalr   2   4"
 #instruction="jalr   2   4"
     
-def J_type(instruction):
+def jType(instruction):
     totalWords = sum(1 for word in instruction.split() if word.isalpha())
     if(totalWords>1):
         able,command,regA,regB=instruction.split()
@@ -20,5 +20,4 @@ def J_type(instruction):
     zeroBack = "0000000"
     matchineCode= zeroBack + obcode + regA + regB + zero
     #print(regA,regB)
-    print(matchineCode)
     return matchineCode;

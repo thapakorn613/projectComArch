@@ -21,7 +21,7 @@ def create_machine(case, num1, num2, num3):
 
 
 
-def run_R_type(instruction):
+def rType(instruction):
     name = ""
     name += instruction
     keep_type = ""

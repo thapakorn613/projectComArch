@@ -14,7 +14,6 @@ def iType(message):
         opcode = "011"
     elif messageSplit[1] == "beq":
         opcode = "100"
-        print('im here')
     #else:
         #opcode = "000"  # for check error
     # ------------ create RS -----------------
@@ -34,7 +33,6 @@ def iType(message):
     # ------------ merge code to Machine Language --------
     machineCode = zero + opcode + rs + rt + offsetField
     # ----------------------------------------------------
-    print("machineCode : " + machineCode)
     return machineCode
 
 def numToBinary(n,rangeOffbit):

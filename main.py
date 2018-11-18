@@ -44,27 +44,34 @@ for i in range(num_lines):
     if d[1] == 'add' or d[1] == 'nand':
         # callR-type
         print('= R-type')
-        mchcode = rtype.run_R_type(instruction)
-        print ("mcgcode : "+mchcode)
+        mchcode = rtype.rType(instruction)
+        toFile.write(mchcode)
+        print("mcgcode[bin] : "+mchcode)
     elif d[1] == 'lw' or d[1] == 'sw' or d[1] == 'beq':
         # callI-type
         print('= I-type')
         mchcode = itype.iType(instruction)
+        toFile.write(mchcode)
+        print("mcgcode[bin] : "+ mchcode)
     elif d[1] == 'halt' or d[1] == 'noop':
         # callO-type
         print('= O-type')
         mchcode = otype.oType(instruction)
-        print("mcgcode : "+ mchcode)
+        toFile.write(mchcode)
+        print("mcgcode[bin] : " + mchcode)
     elif d[1] == '.fill':
         # call.fill
         print('= .fill')
     elif d[1] == 'jalr':
         print('= J-type')
-        mchcode = jtype.J_type(instruction)
+        mchcode = jtype.jType(instruction)
+        toFile.write(mchcode)
+        print("mcgcode[bin] : " + mchcode)
     # ------------------------------------------
     function.error_detect(mchcode) # Error detect function
     toFile.write(mchcode) # Write to file
 print('----------------------------------------------')
+print ("label ",label)
 
 
 
