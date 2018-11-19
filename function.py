@@ -7,25 +7,20 @@ def numToBinary(n,rangeOffbit):
     result = result[::-1]
     return result
 
-def binToDecimal(str):
-    n = 0
-    temp = 0
-    sum = 0
-    str_exe = list (str)
-    for x in reversed(str_exe):
-        if x == "1":
-            temp = 2 ** n
-        elif x == "0":
-            temp = 0
-        sum = sum + temp
-        n = n + 1
-    return sum
+
+
+def binaryToDecimal(binary,rangeOfBit):
+    if(binary[0:1]=="0"):
+        #print(binary[0:1])
+        return int(binary, 2)
+    else:
+        #print(binary[0:1])
+        return  int(binary,2)-(1<<rangeOfBit);
 
 # ---------------- Error check ------------------
 # not complete all
 def error_detect(mchcodee):
     listop = ['000','001','010','011','100','101','110','111']
-
     if len(mchcodee)!= 32:
         print('ERROR Machinecode out of bound!!!')
     elif mchcodee[7:10] not in listop: # opcode check

@@ -1,7 +1,9 @@
-
+import function as function
 filllist = []
 filllist2 = []
 numline = 0
+label = []
+labellist = []
 
 def numToBinary(n,rangeOffbit):
     result = ''
@@ -28,6 +30,8 @@ def write_for_fill(code):
     f.close()
     return s
 
+
+
 def read_for_fill(filePath):
     file = open(filePath, 'r')
     num_lines = sum(1 for line in open(filePath))
@@ -41,19 +45,56 @@ def read_for_fill(filePath):
         if fill[1] == '.fill':
             filllist.append(fill)
 
-def check_for_fill(fillcheck):
-    for i in range(len(filllist)):
-        filllist2.append(filllist[i][0])
-           # return filllist[i][2]
-    #print(filllist2)
-    #print(fillcheck)
-    if fillcheck in filllist2:
-        #return  filllist2[i]
-        filllist2.clear()
-        #print('im here')
-        for j in range(len(filllist)):
-            if fillcheck == filllist[j][0]:
-                return filllist[j][2]
-    else: #print('ERROR Undefined Label!!!')
-        return 'ERROR'
-    return 'ERROR'
+
+
+def read_for_label(filePath):
+    file = open(filePath, 'r')
+    num_lines = sum(1 for line in open(filePath))
+    for i in range(num_lines):
+        s = file.readline()
+
+        if s == '':
+            break
+
+        label = s.rstrip().split('\t');
+        if label[0] != '':
+            if (label[0] in labellist):
+                print('ERROR label constraints!!!')
+                break
+        labellist.append(label[0])
+    return labellist
+
+def check_for_label(labelcheck,addr):
+    #print(labelcheck,addr)
+    if labelcheck[4] not in labellist:
+        print('ERROR Undenfined Label!!****!')
+        quit()
+    for i in range(len(labellist)):
+        #print(labelcheck[4])
+
+
+        if labelcheck[4] == labellist[i]:
+            if labelcheck[1] == 'lw' or labelcheck[1] == 'sw':
+                labelcheck[4] = str(i + int(labelcheck[2]))
+            elif labelcheck[1] == 'beq':
+                labelcheck[4] = str(i - addr - 1)
+    return labelcheck
+
+
+
+
+
+def dotFill(msg):
+    line = 0
+    msg_split = msg.rstrip().split('\t');
+    match_label = msg_split[2]
+    is_match_label_int = function.isint(match_label)
+    if(is_match_label_int == False):
+        if match_label in labellist:
+            line = int(labellist.index(match_label)) # found label line
+    else:
+        line = match_label
+        
+    offsetField = numToBinary(int(line), 32) # convert offsetfield to binary
+
+    return offsetField
