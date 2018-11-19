@@ -2,6 +2,8 @@
 filllist = []
 filllist2 = []
 numline = 0
+label = []
+labellist = []
 
 def numToBinary(n,rangeOffbit):
     result = ''
@@ -21,9 +23,20 @@ def write_for_fill(code):
     f = open('file/fillcode.txt', 'w')
     for i in range(len(code)):
         if code[i] != '':
-            #print ("code[i] : ",code[i])
             f.write('\t' + code[i])
+
     f = open('file/fillcode.txt', 'r')
+    s = f.readline()
+    f.close()
+    return s
+
+def write_for_label(code):
+    f = open('file/labelcode.txt', 'w')
+    for i in range(len(code)):
+        if code[i] != '':
+            f.write('\t' + code[i])
+
+    f = open('file/labelcode.txt', 'r')
     s = f.readline()
     f.close()
     return s
@@ -40,6 +53,43 @@ def read_for_fill(filePath):
         fill = s.rstrip().split('\t');
         if fill[1] == '.fill':
             filllist.append(fill)
+
+
+
+def read_for_label(filePath):
+    file = open(filePath, 'r')
+    num_lines = sum(1 for line in open(filePath))
+    for i in range(num_lines):
+        s = file.readline()
+
+        if s == '':
+            break
+
+        label = s.rstrip().split('\t');
+        if label[0] != '':
+            if (label[0] in labellist):
+                print('ERROR label constraints!!!')
+                break
+        labellist.append(label[0])
+    return labellist
+
+def check_for_label(labelcheck,addr):
+    #print(labelcheck,addr)
+    if labelcheck[4] not in labellist:
+        print('ERROR Undenfined Label!!****!')
+        quit()
+    for i in range(len(labellist)):
+        #print(labelcheck[4])
+
+
+        if labelcheck[4] == labellist[i]:
+            if labelcheck[1] == 'lw' or labelcheck[1] == 'sw':
+                labelcheck[4] = str(i + int(labelcheck[2]))
+            elif labelcheck[1] == 'beq':
+                labelcheck[4] = str(i - addr - 1)
+    return labelcheck
+
+
 
 def check_for_fill(fillcheck):
     for i in range(len(filllist)):

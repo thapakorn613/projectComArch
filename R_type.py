@@ -16,7 +16,7 @@ def create_machine(case, num1, num2, num3):
     elif case == "nand":
         opcode = "001"
     othernum = "0000000000000"
-    alll = zero + opcode + num2 + num1 + othernum + num3
+    alll = zero + opcode + num1 + num2 + othernum + num3
     return alll
 
 

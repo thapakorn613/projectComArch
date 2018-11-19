@@ -20,4 +20,5 @@ def jType(instruction):
     zeroBack = "0000000"
     matchineCode= zeroBack + obcode + regA + regB + zero
     #print(regA,regB)
+    print(matchineCode)
     return matchineCode;

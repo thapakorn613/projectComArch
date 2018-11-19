@@ -10,10 +10,12 @@ import toFile as toFile
 
 instruction="start jalr   2   4" # test J type
 
-filePath = "file/testAllFunction.txt"
+filePath = "file/test_Real.txt"
 
 
+print(toFile.read_for_label(filePath))
 toFile.read_for_fill(filePath)
+#quit()
 file = open(filePath, 'r')
 label = []
 num_lines = sum(1 for line in open(filePath))
@@ -26,56 +28,49 @@ for i in range(num_lines):
     d = s.rstrip().split('\t');
     print('----------------------------------------------')
     print(d)
+    label.append(d[0])
+    #print(label)
     # -------- Label ERROR!!! constraints check --------
     if len(d) > 4:
         if function.isint(d[4]) == False :
-            d[4] = toFile.check_for_fill(d[4])
+            d = toFile.check_for_label(d,i)
+            #d[4] = toFile.check_for_fill(d[4])
+            #toFile.check_for_label(d[4])
             print(d,'***')
             if d[4] == 'ERROR':
                 print('ERROR Undefined Label!!!')
                 break
             instruction = toFile.write_for_fill(d)
-    if d[0] != '':
-        if (d[0] in label):
-            print('ERROR label constraints!!!')
-            break
-    label.append(d[0])
+#    if d[0] != '':
+#        if (d[0] in label):
+#            print('ERROR label constraints!!!')
+#            break
+
+
     # ------------------ TYPE -------------------
     if d[1] == 'add' or d[1] == 'nand':
-        # callR-type
-        print('= R-type')
         mchcode = rtype.rType(instruction)
         toFile.write(mchcode)
-        print("mcgcode[bin] : "+mchcode)
+        print("mcgcode[bin] : ",mchcode)
+        print("mcgcode[dec] : ",function.binToDecimal(mchcode))
     elif d[1] == 'lw' or d[1] == 'sw' or d[1] == 'beq':
         # callI-type
-        print('= I-type')
         mchcode = itype.iType(instruction)
         toFile.write(mchcode)
-        print("mcgcode[bin] : "+ mchcode)
+        print("mcgcode[bin] : "+mchcode)
+        print("mcgcode[dec] : ",function.binToDecimal(mchcode))
     elif d[1] == 'halt' or d[1] == 'noop':
         # callO-type
-        print('= O-type')
         mchcode = otype.oType(instruction)
         toFile.write(mchcode)
-        print("mcgcode[bin] : " + mchcode)
-    elif d[1] == '.fill':
-        # call.fill
-        print('= .fill')
+        print("mcgcode[bin] : "+mchcode)
+        print("mcgcode[dec] : ",function.binToDecimal(mchcode))
     elif d[1] == 'jalr':
-        print('= J-type')
         mchcode = jtype.jType(instruction)
         toFile.write(mchcode)
-        print("mcgcode[bin] : " + mchcode)
+        print("mcgcode[bin] : "+mchcode)
+        print("mcgcode[dec] : ",function.binToDecimal(mchcode))
     # ------------------------------------------
     function.error_detect(mchcode) # Error detect function
     toFile.write(mchcode) # Write to file
 print('----------------------------------------------')
-print ("label ",label)
-
-
-
-# --------------- Beginnig I type ---------
-#machineLanguage = itype.iType(machineLanguage)
-#print ("machineLanguage [ I type ] : " + machineLanguage)
-#print ("machineLanguage [ J type ] :  : "+ jtype.J_type(instruction))
