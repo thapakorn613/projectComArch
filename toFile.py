@@ -22,8 +22,7 @@ def write(code):
 def write_for_fill(code):
     f = open('file/fillcode.txt', 'w')
     for i in range(len(code)):
-        if code[i] != '':
-            f.write('\t' + code[i])
+        f.write(code[i] + '\t')
 
     f = open('file/fillcode.txt', 'r')
     s = f.readline()
