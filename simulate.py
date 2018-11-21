@@ -5,7 +5,7 @@ mem_machine_code = text_file.read().split('\n')
 text_file.close()
 pc=0
 #register=["000","111","101","000","000","000","000","000"]
-register=["00000000000000000000000000000000","00000000000000000000000000000111","00000000000000000000000000000101","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000"]
+register=["00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000"]
 MaxPc = sum(1 for line in open('file\MachineCode.txt'))
 
 #print(MaxPc)
@@ -36,13 +36,13 @@ def lwFormat(lw_machine_code):
     regA=int(lw_machine_code[10:13],2)
     regB=int(lw_machine_code[13:16],2)
     offset=str(lw_machine_code[15:32])
-    register[regB]=decimalToBinary((binaryToDecimal(offset,16)+binaryToDecimal(register[regA],32)),16)
+    register[regB]=mem_machine_code[(binaryToDecimal(offset,16)+binaryToDecimal(register[regA],32))]
     return;
 
 def swFormat(sw_machine_code):
     regA=int(sw_machine_code[10:13],2)
     regB=int(sw_machine_code[13:16],2)
-    offset=str(sw_machine_code[15:32])
+    offset=str(sw_machine_code[16:32])
     print("regA",regA)
     print("regB",regB)
     print("offset",offset)
@@ -63,50 +63,164 @@ def decimalToBinary(decimal,rangeOfbit):
 
 def binaryToDecimal(binary,rangeOfBit):
     if(binary[0:1]=="0"):
-        print(binary[0:1])
+        #print(binary[0:1])
         return int(binary, 2)
     else:
-        print(binary[0:1])
+        #print(binary[0:1])
         return  int(binary,2)-(1<<rangeOfBit);
 
 def printMem():
+    countmem=0
+    print("memory:")
     for mem in mem_machine_code:
-        print(mem)
+        try:
+            print("memmory[",countmem,"]",binaryToDecimal(mem,32))
+            #print("memmory[",countmem,"]",mem)
+            countmem=countmem+1
+        except:
+            return;
+   
+        
 
 def printRegister():
-     for Reg in register:
-        print(Reg)
+    print("register:")
+    countreg=0
+    for Reg in register:
+        print("reg[",countreg,"]",binaryToDecimal(Reg,32))
+        #print("reg[",countreg,"]",Reg)
+        countreg=countreg+1
+
+def BEQ_I_TYPE(machine,PCindex):
+    regA = int(machine[10:13],2) #select_bit 21-19
+    regB = int(machine[13:16],2) #select_bit 18-16
+    Offsetfield=str(machine[16:32])
+
+    
+    if(register[regA] == register[regB]):
+        PCindex=PCindex+binaryToDecimal(Offsetfield,16)
+        print ("JUME !!")
+        print (PCindex)
+        print((Offsetfield))
+        print(binaryToDecimal(Offsetfield,16))
+        print(PCindex)
+        return PCindex
+    else:
+        print ("NOT JUME !!")
+        return PCindex
+
+def JAIR_J_TYPE(machine,PCindex):
+    
+    regA = int(machine[10:13],2) #select_bit 21-19 #keep address
+    regB = int(machine[13:16],2) #select_bit 18-16 #keep PC+1
+    
+    print ("\t\tJAIR")
+    
+    if (regA==regB):
+        
+        register[regA] = PCindex+1
+        
+        return PCindex
+    else:
+        register[regB] = PCindex+1
+        PCindex = register[regA]
+        
+        return PCindex
+
+    
+def HAIT_O_TYPE():
+    return;
+    
+   # print ("\t\tHALT")
+    
+def NOOP_O_TYPE():
+    return;
+   # print ("\t\tNOOP")
+    
+def CovertTwocomplement(_Codebit):
+    
+    Offset=0
+
+    if(_Codebit[0]=='1'):
+        
+        Offset=int(_Codebit[0:16],2)-(1<<16)
+        
+    elif(_Codebit[0]=='0'):
+        
+        Offset=int(_Codebit[0:16],2)
+        
+    return Offset
+def binToDecimal(str):
+    n = 0
+    temp = 0
+    sum = 0
+    str_exe = list (str)
+    if(str[0:17]=='00000000000000001'):
+        
+        return CovertTwocomplement(str[16:32])
+    
+    else:
+        for x in reversed(str_exe):
+            if x == "1":
+                temp = 2 ** n
+            elif x == "0":
+                temp = 0
+            sum = sum + temp
+            n = n + 1
+        return sum
+
 
 def simulate(mem_machine_code):
-    for pc in range(MaxPc):
+    stage=0
+    print("stage:",stage)
+    print("pc:0")
+    printMem()
+    printRegister()
+    pc=0
+    pctest=0
+    print("\n\n\n")
+    while pc < MaxPc:
+        pctest=pctest+1
+        
         #print(mem_machine_code[0])
         #print(mem_machine_code[0][0:7])
         obcode=mem_machine_code[pc][7:10]
-
-        print(mem_machine_code[pc])
+        
+        #print(mem_machine_code[pc])
 
         if obcode=="000":
             print("add")
-            #addFormat(mem_machine_code[pc])    
+            addFormat(mem_machine_code[pc])    
         elif obcode=="001":
             print("namd")
             nandFormat(mem_machine_code[pc])    
         elif obcode=="010":
             print("lw")
-            #lwFormat(mem_machine_code[pc])   
+            lwFormat(mem_machine_code[pc])   
         elif obcode=="011":
             print("sw")
-            #swFormat(mem_machine_code[pc])   
+            swFormat(mem_machine_code[pc])   
         elif obcode=="100":
             print("beq")
+            pc=BEQ_I_TYPE(mem_machine_code[pc],pc)
         elif obcode=="101":
             print("jalr")
+            pc=JAIR_J_TYPE (mem_machine_code[pc],pc)-1
         elif obcode=="110":
             print("halt")
+            printMem()
+            printRegister()
+            HAIT_O_TYPE()
+            break;
         elif obcode=="111":
             print("noop")
-    printMem()
-    printRegister()
+            NOOP_O_TYPE()
+        print("stage:",stage)
+        print("pc:",pc+1)
+        printMem()
+        printRegister()
+        stage=stage+1
+        pc=pc+1
+        print("\n\n\n")
     return;
 
 simulate(mem_machine_code)
