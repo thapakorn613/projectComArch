@@ -1,4 +1,4 @@
-#!/usr/bin/python\
+
 import reg as reg
 import mem as mem
 import function as function
