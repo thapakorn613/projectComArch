@@ -35,7 +35,11 @@ def nandFormat(nand_machine_code):
 def lwFormat(lw_machine_code):
     regA=int(lw_machine_code[10:13],2)
     regB=int(lw_machine_code[13:16],2)
-    offset=str(lw_machine_code[15:32])
+    offset=str(lw_machine_code[16:32])
+    print(offset)
+    print(register[regA])
+    print(regB)
+    print("mem_machine_code[(binaryToDecimal(offset,16)+binaryToDecimal(register[regA],32))]",mem_machine_code[(binaryToDecimal(offset,16)+binaryToDecimal(register[regA],32))])
     register[regB]=mem_machine_code[(binaryToDecimal(offset,16)+binaryToDecimal(register[regA],32))]
     return;
 
@@ -46,10 +50,12 @@ def swFormat(sw_machine_code):
     print("regA",regA)
     print("regB",regB)
     print("offset",offset)
-    print(binaryToDecimal("0011",4))
+  
     print(binaryToDecimal(register[regA],32))
+    print(binaryToDecimal(offset,16))
     print((binaryToDecimal(offset,16)+binaryToDecimal(register[regA],32)))
-    mem_machine_code[(binaryToDecimal(offset,16)+binaryToDecimal(register[regA],32))]=regB
+    print(register[regB])
+    mem_machine_code[(binaryToDecimal(offset,16)+binaryToDecimal(register[regA],32))]=register[regB]
     return;
     
 def decimalToBinary(decimal,rangeOfbit):
@@ -86,6 +92,7 @@ def printRegister():
     print("register:")
     countreg=0
     for Reg in register:
+        #print(Reg)
         print("reg[",countreg,"]",binaryToDecimal(Reg,32))
         #print("reg[",countreg,"]",Reg)
         countreg=countreg+1
@@ -117,13 +124,13 @@ def JAIR_J_TYPE(machine,PCindex):
     
     if (regA==regB):
         
-        register[regA] = PCindex+1
+        register[regA] = decimalToBinary((PCindex+1),32)
         
         return PCindex
     else:
-        register[regB] = PCindex+1
-        PCindex = register[regA]
-        
+        register[regB] = decimalToBinary((PCindex+1),2)
+        PCindex =binaryToDecimal((register[regA]),32)
+        print(PCindex)
         return PCindex
 
     
@@ -170,6 +177,7 @@ def binToDecimal(str):
 
 
 def simulate(mem_machine_code):
+    printMem()
     stage=0
     print("stage:",stage)
     print("pc:0")
@@ -180,7 +188,7 @@ def simulate(mem_machine_code):
     print("\n\n\n")
     while pc < MaxPc:
         pctest=pctest+1
-        
+        print("pc:",pc+1)
         #print(mem_machine_code[0])
         #print(mem_machine_code[0][0:7])
         obcode=mem_machine_code[pc][7:10]
@@ -204,7 +212,7 @@ def simulate(mem_machine_code):
             pc=BEQ_I_TYPE(mem_machine_code[pc],pc)
         elif obcode=="101":
             print("jalr")
-            pc=JAIR_J_TYPE (mem_machine_code[pc],pc)-1
+            pc=(JAIR_J_TYPE(mem_machine_code[pc],pc))+1
         elif obcode=="110":
             print("halt")
             printMem()
@@ -214,13 +222,14 @@ def simulate(mem_machine_code):
         elif obcode=="111":
             print("noop")
             NOOP_O_TYPE()
-        print("stage:",stage)
-        print("pc:",pc+1)
-        printMem()
-        printRegister()
-        stage=stage+1
-        pc=pc+1
-        print("\n\n\n")
+        if(obcode!="---"):
+            print("stage:",stage)
+            printMem()
+            print("+++++++++++++++++++",register[7])
+            printRegister()
+            stage=stage+1
+            pc=pc+1
+            print("\n\n\n")
     return;
 
 simulate(mem_machine_code)
