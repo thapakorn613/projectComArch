@@ -186,16 +186,16 @@ def simulate(mem_machine_code):
     pc=0
     pctest=0
     print("\n\n\n")
-    while pctest < 20:
+    while pc < MaxPc:
         pctest=pctest+1
         print("pc:",pc+1)
         #print(mem_machine_code[0])
-        #print(mem_machine_code[0][0:7])
+        zerobit=(mem_machine_code[0][16:31])
         obcode=mem_machine_code[pc][7:10]
         
         #print(mem_machine_code[pc])
 
-        if obcode=="000":
+        if obcode=="000" and zerobit=="0000000000000000":
             print("add")
             addFormat(mem_machine_code[pc])    
         elif obcode=="001":
