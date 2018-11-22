@@ -20,7 +20,7 @@ num_lines = sum(1 for line in open(filePath))
 for i in range(num_lines):
     mchcode='--------------------------------'
     s = file.readline()
-    if s == '':  # check file end
+    if s == '':  # check file end   
         break
     instruction = s
     d = s.rstrip().split('\t');
