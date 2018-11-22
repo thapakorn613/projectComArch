@@ -10,7 +10,7 @@ import toFile as toFile
 import os
 os.remove("file/MachineCode.txt")
 
-filePath = "file/test22.txt"
+filePath = "file/realAssembly.txt"
 
 print(toFile.read_for_label(filePath))
 toFile.read_for_fill(filePath)

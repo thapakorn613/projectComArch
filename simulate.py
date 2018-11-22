@@ -23,9 +23,6 @@ def nandFormat(nand_machine_code):
     regA=int(nand_machine_code[10:13],2)
     regB=int(nand_machine_code[13:16],2)
     destReg=int(nand_machine_code[29:32],2)
-    #print(" regA",regA)
-    #print(" regB",regB)
-    #print(" desReg",destReg)
     register[destReg]=((int(register[regA],2) & int(register[regB],2)))
     register[destReg]=~register[destReg]
     register[destReg]=decimalToBinary(register[destReg],32)
