@@ -13,9 +13,9 @@ def addFormat(add_machine_code):
     regA=int(add_machine_code[10:13],2)
     regB=int(add_machine_code[13:16],2)
     destReg=int(add_machine_code[29:32],2)
-  #  print(" regA",regA)
-   # print(" regB",regB)
-   # print(" desReg",destReg)
+    print(" regA",regA)
+    print(" regB",regB)
+    print(" desReg",destReg)
     register[destReg]=decimalToBinary((binaryToDecimal(register[regA],32)+binaryToDecimal(register[regB],32)),32)
     return;
 
@@ -186,7 +186,7 @@ def simulate(mem_machine_code):
     pc=0
     pctest=0
     print("\n\n\n")
-    while pc < MaxPc:
+    while pctest < 20:
         pctest=pctest+1
         print("pc:",pc+1)
         #print(mem_machine_code[0])
@@ -223,9 +223,10 @@ def simulate(mem_machine_code):
             print("noop")
             NOOP_O_TYPE()
         if(obcode!="---"):
+            register[7]="00000000000000000000000000000000"
             print("stage:",stage)
             printMem()
-            print("+++++++++++++++++++",register[7])
+           
             printRegister()
             stage=stage+1
             pc=pc+1

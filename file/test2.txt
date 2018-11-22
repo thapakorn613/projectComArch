@@ -18,7 +18,7 @@ sub4n	sw	7	4	stack
 	lw	7	1	stack	
 	add	7	2	7	
 	lw	7	4	stack	
-	jal	4	2	
+	jalr	4	2	
 pos1	.fill	1
 neg1	.fill	-1
 subAdr	.fill	sub4n	
