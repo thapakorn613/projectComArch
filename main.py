@@ -10,7 +10,7 @@ import toFile as toFile
 import os
 os.remove("file/MachineCode.txt")
 
-filePath = "file/realAssembly.txt"
+filePath = "file/testMulti.txt"
 
 print(toFile.read_for_label(filePath))
 toFile.read_for_fill(filePath)
@@ -20,7 +20,7 @@ num_lines = sum(1 for line in open(filePath))
 for i in range(num_lines):
     mchcode='--------------------------------'
     s = file.readline()
-    if s == '':  # check file end
+    if s == '':  # check file end   
         break
     instruction = s
     d = s.rstrip().split('\t');
