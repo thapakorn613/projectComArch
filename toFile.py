@@ -74,9 +74,11 @@ def check_for_label(labelcheck,addr):
 
         if labelcheck[4] == labellist[i]:
             if labelcheck[1] == 'lw' or labelcheck[1] == 'sw':
-                labelcheck[4] = str(i + int(labelcheck[2]))
+                #labelcheck[4] = str(i + int(labelcheck[2]))
+                labelcheck[4] = str(i)
             elif labelcheck[1] == 'beq':
-                labelcheck[4] = str(i - addr - 1)
+                #labelcheck[4] = str(i - addr - 1)
+                labelcheck[4] = str(i)
     return labelcheck
 
 
