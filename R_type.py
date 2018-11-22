@@ -85,15 +85,16 @@ def rType(instruction):
     keep3 = num
 
     for i in range((nums - num)-1):
-        num3 += name[num]
+        num3 += name[keep3]
         keep3 += 1
+    print(num3)
     tempnum3 = int(num3)
     tempnum2 = int(num2)
     tempnum1 = int(num1)
     num3 = convert.numToBinary(tempnum3, 3)
     num2 = convert.numToBinary(tempnum2, 3)
     num1 = convert.numToBinary(tempnum1, 3)
-
+    
     return create_machine(keep_type, num1, num2, num3)
 
 #run_R_type("start      nand      55  22  33    ")
