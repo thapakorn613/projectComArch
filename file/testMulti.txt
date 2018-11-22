@@ -4,7 +4,7 @@
 	lw	0	3	pos2
 	add	1	0	0
 	nand	1	2	3
-	nand	1	1	1
+	nand	7	1	1
 pos5	.fill	5
-pos2	.fill	2
+pos2	.fill	4
 zero	.fill	0

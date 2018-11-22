@@ -52,7 +52,7 @@ def swFormat(sw_machine_code):
     print(binaryToDecimal(offset,16))
     print((binaryToDecimal(offset,16)+binaryToDecimal(register[regA],32)))
     print(register[regB])
-    mem_machine_code[(binaryToDecimal(offset,16)+binaryToDecimal(register[regA],32))]=register[regB]
+    mem_machine_code[binaryToDecimal(mem_machine_code[binaryToDecimal(offset,16)],32)+binaryToDecimal(register[regA],32)]=register[regB]
     return;
     
 def decimalToBinary(decimal,rangeOfbit):
@@ -183,7 +183,7 @@ def simulate(mem_machine_code):
     pc=0
     pctest=0
     print("\n\n\n")
-    while pctest < (20):
+    while pc < MaxPc:
         pctest=pctest+1
         print("pc:",pc+1)
         #print(mem_machine_code[0])
