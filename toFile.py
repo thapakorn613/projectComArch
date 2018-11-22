@@ -77,8 +77,8 @@ def check_for_label(labelcheck,addr):
                 #labelcheck[4] = str(i + int(labelcheck[2]))
                 labelcheck[4] = str(i)
             elif labelcheck[1] == 'beq':
-                #labelcheck[4] = str(i - addr - 1)
-                labelcheck[4] = str(i)
+                labelcheck[4] = str(i - addr - 1)
+                #labelcheck[4] = str(i)
     return labelcheck
 
 
