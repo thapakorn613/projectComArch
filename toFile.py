@@ -20,11 +20,11 @@ def write(code):
     f.close()
 
 def write_for_fill(code):
-    f = open('file/fillcode.txt', 'w')
+    f = open('file/temp.txt', 'w')
     for i in range(len(code)):
         f.write(code[i] + '\t')
 
-    f = open('file/fillcode.txt', 'r')
+    f = open('file/temp.txt', 'r')
     s = f.readline()
     f.close()
     return s

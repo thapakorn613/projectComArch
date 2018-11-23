@@ -36,3 +36,29 @@ def isint(value):
         return True
     except ValueError:
         return False
+
+def binToDecimal(str):
+    n = 0
+    temp = 0
+    sum = 0
+    str_exe = list (str)
+    if(str[0:17] == '00000000000000001'):
+        return CovertTwocomplement(str[16:32])
+    else:
+        for x in reversed(str_exe):
+            if x == "1":
+                temp = 2 ** n
+            elif x == "0":
+                temp = 0
+            sum = sum + temp
+            n = n + 1
+        return sum
+
+
+def CovertTwocomplement(_Codebit):
+    Offset=0
+    if(_Codebit[0]=='1'):
+        Offset=int(_Codebit[0:16],2)-(1<<16)
+    elif(_Codebit[0]=='0'):
+        Offset=int(_Codebit[0:16],2)
+    return Offset

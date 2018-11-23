@@ -1,1 +1,0 @@
-start	jalr	2	4
