@@ -23,8 +23,8 @@ exitAND	add	5	5	5
 	add	6	6	7
 	beq	0	6	forloop
 end	halt
-mcand	.fill	6
-mplier	.fill	2
+mcand	.fill	8
+mplier	.fill	4
 pos15	.fill	15
 pos1	.fill	1
 zero	.fill	0

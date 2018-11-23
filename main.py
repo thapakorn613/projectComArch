@@ -10,7 +10,8 @@ import toFile as toFile
 import os
 os.remove("file/MachineCode.txt")
 
-filePath = "file/testMulti.txt"
+#filePath = "file/combi_final.txt"
+filePath = "file/multiplication_final.txt"
 
 print(toFile.read_for_label(filePath))
 toFile.read_for_fill(filePath)
