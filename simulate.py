@@ -1,4 +1,3 @@
-
 text_file = open("file\MachineCode.txt", "r")
 mem_machine_code = text_file.read().split('\n')
 #print(machine_code)
@@ -13,8 +12,8 @@ def addFormat(add_machine_code):
     regA=int(add_machine_code[10:13],2)
     regB=int(add_machine_code[13:16],2)
     destReg=int(add_machine_code[29:32],2)
-    print(" regA",regA)
-    print(" regB",regB)
+    print(" regA",regA,(binaryToDecimal(register[regA],32)))
+    print(" regB",regB,(binaryToDecimal(register[regB],32)))
     print(" desReg",destReg)
     register[destReg]=decimalToBinary((binaryToDecimal(register[regA],32)+binaryToDecimal(register[regB],32)),32)
     return;
@@ -36,7 +35,7 @@ def lwFormat(lw_machine_code):
     print(offset)
     print(register[regA])
     print(regB)
-    print("mem_machine_code[(binaryToDecimal(offset,16)+binaryToDecimal(register[regA],32))]",mem_machine_code[(binaryToDecimal(offset,16)+binaryToDecimal(register[regA],32))])
+    print("mem_machine_code[(binaryToDecimal(offset,16)+binaryToDecimal(register[regA],32))]",(binaryToDecimal(offset,16)+binaryToDecimal(register[regA],32)))
     register[regB]=mem_machine_code[(binaryToDecimal(offset,16)+binaryToDecimal(register[regA],32))]
     return;
 
@@ -52,7 +51,13 @@ def swFormat(sw_machine_code):
     print(binaryToDecimal(offset,16))
     print((binaryToDecimal(offset,16)+binaryToDecimal(register[regA],32)))
     print(register[regB])
-    mem_machine_code[binaryToDecimal(mem_machine_code[binaryToDecimal(offset,16)],32)+binaryToDecimal(register[regA],32)]=register[regB]
+    try:
+        mem_machine_code[(binaryToDecimal(offset,16)+binaryToDecimal(register[regA],32))]=register[regB]
+    except:
+        #mem_machine_code[(binaryToDecimal(offset,16)+binaryToDecimal(register[regA],32))]="00000000000000000000000000000000"
+        #mem_machine_code[(binaryToDecimal(offset,16)+binaryToDecimal(register[regA],32))]=register[regB]
+        mem_machine_code.append(register[regB])
+    #print((binaryToDecimal(mem_machine_code[binaryToDecimal(offset,16)],32)+binaryToDecimal(register[regA],32)))
     return;
     
 def decimalToBinary(decimal,rangeOfbit):
@@ -74,31 +79,45 @@ def binaryToDecimal(binary,rangeOfBit):
 
 def printMem():
     countmem=0
+    #outputSimulate=open("file/outputSimulate.txt","w")
     print("memory:")
+    outputSimulate.write("memmory:"+"\n")
     for mem in mem_machine_code:
         try:
             print("memmory[",countmem,"]",binaryToDecimal(mem,32))
             #print("memmory[",countmem,"]",mem)
+            outputSimulate.write("memmory["+str(countmem)+"]"+str(binaryToDecimal(mem,32))+"\n")
             countmem=countmem+1
+            
         except:
             return;
+
+    #outputSimulate.close()
    
         
 
 def printRegister():
     print("register:")
     countreg=0
+    #outputSimulate=open("file/outputSimulate.txt","w")
+    outputSimulate.write("register:"+"\n")
+    
+    
     for Reg in register:
         #print(Reg)
         print("reg[",countreg,"]",binaryToDecimal(Reg,32))
         #print("reg[",countreg,"]",Reg)
+        outputSimulate.write("reg["+str(countreg)+"]"+str(binaryToDecimal(Reg,32))+"\n")
         countreg=countreg+1
+    outputSimulate.write("\n\n\n")
+    #outputSimulate.close()
+
 
 def BEQ_I_TYPE(machine,PCindex):
     regA = int(machine[10:13],2) #select_bit 21-19
     regB = int(machine[13:16],2) #select_bit 18-16
     Offsetfield=str(machine[16:32])
-
+    print(machine)
     
     if(register[regA] == register[regB]):
         PCindex=PCindex+binaryToDecimal(Offsetfield,16)
@@ -110,13 +129,21 @@ def BEQ_I_TYPE(machine,PCindex):
         return PCindex
     else:
         print ("NOT JUME !!")
+        print(regA)
+        print(regB)
+        print (register[regA])
+        print (register[regB])
+        print((Offsetfield))
+        print(binaryToDecimal(Offsetfield,16))
+        print(PCindex)
         return PCindex
 
 def JAIR_J_TYPE(machine,PCindex):
     
     regA = int(machine[10:13],2) #select_bit 21-19 #keep address
     regB = int(machine[13:16],2) #select_bit 18-16 #keep PC+1
-    
+    print(regA)
+    print(regB)
     print ("\t\tJAIR")
     
     if (regA==regB):
@@ -125,7 +152,7 @@ def JAIR_J_TYPE(machine,PCindex):
         
         return PCindex
     else:
-        register[regB] = decimalToBinary((PCindex+1),2)
+        register[regB] = decimalToBinary((PCindex+1),32)
         PCindex =binaryToDecimal((register[regA]),32)
         print(PCindex)
         return PCindex
@@ -174,10 +201,14 @@ def binToDecimal(str):
 
 
 def simulate(mem_machine_code):
+    #outputSimulate=open("file/outputSimulate.txt","w")
+    
     printMem()
     stage=0
     print("stage:",stage)
+    outputSimulate.write("stage:"+str(stage)+"\n")
     print("pc:0")
+    outputSimulate.write("pc:0"+"\n")
     printMem()
     printRegister()
     pc=0
@@ -185,12 +216,21 @@ def simulate(mem_machine_code):
     print("\n\n\n")
     while pc < MaxPc:
         pctest=pctest+1
-        print("pc:",pc+1)
+        print("pc:",pc)
+        outputSimulate.write("pc:"+str(pc)+"\n")
         #print(mem_machine_code[0])
         zerobit=(mem_machine_code[pc][16:31])
         obcode=mem_machine_code[pc][7:10]
-        
+        register[0]="00000000000000000000000000000000"
         #print(mem_machine_code[pc])
+       
+        print("stage:",stage)
+        outputSimulate.write("stage:"+str(stage)+"\n")
+        printMem()
+            
+        printRegister()
+        
+        print("\n\n\n")
 
         if obcode=="000" and zerobit!="0000000000000000":
             print("add")
@@ -207,9 +247,13 @@ def simulate(mem_machine_code):
         elif obcode=="100":
             print("beq")
             pc=BEQ_I_TYPE(mem_machine_code[pc],pc)
+            
+            
         elif obcode=="101":
             print("jalr")
-            pc=(JAIR_J_TYPE(mem_machine_code[pc],pc))+1
+            pc=(JAIR_J_TYPE(mem_machine_code[pc],pc))
+            pc=pc-1
+            
         elif obcode=="110":
             print("halt")
             printMem()
@@ -219,15 +263,12 @@ def simulate(mem_machine_code):
         elif obcode=="111":
             print("noop")
             NOOP_O_TYPE()
-        if(obcode!="---"):
-            register[7]="00000000000000000000000000000000"
-            print("stage:",stage)
-            printMem()
-           
-            printRegister()
-            stage=stage+1
-            pc=pc+1
-            print("\n\n\n")
+        
+        register[0]="00000000000000000000000000000000"
+        stage=stage+1
+        pc=pc+1
+    
     return;
-
+outputSimulate=open("file/outputSimulate.txt","w")
 simulate(mem_machine_code)
+outputSimulate.close()
