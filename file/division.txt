@@ -1,0 +1,39 @@
+	lw	0	1	div
+	lw	0	3	quot
+	nand	1	1	1
+	lw	0	5	pos1
+	add	1	5	1
+	add	2	0	0
+start	lw	0	5	count
+	beq	7	5	end
+	lw	0	5	pos1
+	add	7	5	7
+	add	2	2	2
+	add	3	3	3
+	lw	0	5	firstbit
+	nand	3	5	4
+	nand	4	4	4
+	lw	0	5	clrbit
+	nand	3	5	3
+	nand	3	3	3
+	beq	4	0	skip
+	lw	0	4	pos1
+	add	2	4	2
+skip	add	2	1	5
+	lw	0	4	signbit
+	nand	5	4	6
+	nand	6	6	6
+	beq	6	0	addone
+	beq	0	0	start
+addone	lw	0	4	pos1
+	add	3	4	3
+	add	5	0	2
+	beq	0	0	start
+end	halt
+clrbit	.fill	2147483647
+signbit	.fill	1073741824
+firstbit	.fill	2147483648
+count	.fill	31
+pos1	.fill	1
+div	.fill	261304
+quot	.fill	522608
