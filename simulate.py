@@ -1,9 +1,14 @@
-text_file = open("file\MachineCode.txt", "r")
+import sys
+
+filePath = sys.argv[1]
+#filePath = 'file/machineCode.txt'
+
+text_file = open(filePath, "r")
 mem_machine_code = text_file.read().split('\n')
 text_file.close()
 pc = 0
 register = ["00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000","00000000000000000000000000000000"]
-MaxPc = sum(1 for line in open('file\MachineCode.txt'))
+MaxPc = sum(1 for line in open(filePath))
 
 def addFormat(add_machine_code):
     regA = int(add_machine_code[10:13],2)
@@ -68,8 +73,8 @@ def printMem():
 
 def printMemBegin():
     countmem = 0
-    print ("\nRun of Simulator")
-    outputSimulate.write("\nRun of Simulator")
+    print ("\nRun of Simulator\n")
+    outputSimulate.write("\nRun of Simulator\n")
     for mem in mem_machine_code:
         try:
             print("memmory[",countmem,"]",binaryToDecimal(mem, 32))
@@ -87,18 +92,19 @@ def printRegister():
         outputSimulate.write("\t\t\treg[" + str(countreg) + "]" + str(binaryToDecimal(Reg, 32))+"\n")
         countreg = countreg + 1
     outputSimulate.write("\n")
+    print ("end state")
 
 
 def printLastStage(stage, pc):
     print("machine halted")
     print("total of ", stage, " instructions executed")
     print("final state of machine:\n\n@@@")
-    print("stage:")
+    print("state:")
     print("\t\tpc:", pc)
     outputSimulate.write("machine halted")
     outputSimulate.write("total of "+str(stage)+" instructions executed")
     outputSimulate.write("final state of machine:\n\n@@@")
-    outputSimulate.write("stage:")
+    outputSimulate.write("state:")
     outputSimulate.write("\t\tpc:" + str(pc))
 
 def BEQ_I_TYPE(machine,PCindex):
@@ -135,8 +141,8 @@ def simulate(mem_machine_code):
         obcode = mem_machine_code[pc][7:10]
         register[0] = "00000000000000000000000000000000"
         print ("@@@")
-        print("stage:",stage)
-        outputSimulate.write("stage:"+str(stage)+"\n")
+        print("state:",stage,"\n")
+        outputSimulate.write("state: "+ str (stage)+"\n")
         print("\t\tpc:",pc)
         outputSimulate.write("\t\tpc:"+str(pc)+"\n")
         printMem()
@@ -167,7 +173,6 @@ def simulate(mem_machine_code):
         stage = stage + 1
         pc = pc + 1
     return;
-
-outputSimulate=open("file/outputSimulate.txt","w")
+outputSimulate = open("file/outputSimulate.txt","w")
 simulate(mem_machine_code)
 outputSimulate.close()

@@ -7,8 +7,6 @@ def numToBinary(n,rangeOffbit):
     result = result[::-1]
     return result
 
-
-
 def binaryToDecimal(binary,rangeOfBit):
     if(binary[0:1]=="0"):
         #print(binary[0:1])

@@ -1,4 +1,8 @@
 import function as function
+import sys
+
+filePath = 'file/machineCode.txt'
+
 filllist = []
 filllist2 = []
 numline = 0
@@ -15,7 +19,7 @@ def numToBinary(n,rangeOffbit):
     return result
 
 def write(code):
-    f = open('file/MachineCode.txt', 'a')
+    f = open(filePath, 'a')
     f.write(code + '\n')
     f.close()
 

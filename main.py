@@ -1,6 +1,4 @@
 
-import reg as reg
-import mem as mem
 import function as function
 import J_type as jtype
 import I_type as itype
@@ -8,10 +6,10 @@ import R_type as rtype
 import O_type as otype
 import toFile as toFile
 import os
-os.remove("file/MachineCode.txt")
+import sys
 
-#filePath = "file/combination.txt"
-filePath = "file/multiplication.txt"
+os.remove("file\machineCode.txt")
+filePath = sys.argv[1]
 
 print(toFile.read_for_label(filePath))
 toFile.read_for_fill(filePath)
@@ -19,7 +17,7 @@ file = open(filePath, 'r')
 label = []
 num_lines = sum(1 for line in open(filePath))
 for i in range(num_lines):
-    mchcode='--------------------------------'
+    mchcode = '--------------------------------'
     s = file.readline()
     if s == '':  # check file end
         break
