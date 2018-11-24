@@ -9,6 +9,7 @@ import os
 import sys
 
 os.remove("file\machineCode.txt")
+
 filePath = sys.argv[1]
 
 print(toFile.read_for_label(filePath))

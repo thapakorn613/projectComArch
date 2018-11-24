@@ -1,7 +1,6 @@
 import sys
 
-filePath = sys.argv[1]
-#filePath = 'file/machineCode.txt'
+filePath = 'file/machineCode.txt'
 
 text_file = open(filePath, "r")
 mem_machine_code = text_file.read().split('\n')

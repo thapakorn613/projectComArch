@@ -1,17 +1,17 @@
 
 Run of Simulator
-memmory[0]8716309
-memmory[1]8519699
-memmory[2]8781844
-memmory[3]8650773
-memmory[4]8454162
+memmory[0]8519699
+memmory[1]8585234
+memmory[2]8650773
+memmory[3]8716309
+memmory[4]8781844
 memmory[5]19791883
 memmory[6]7
 memmory[7]6422535
 memmory[8]8323079
 memmory[9]20447233
-memmory[10]720899
-memmory[11]589825
+memmory[10]1638401
+memmory[11]1769475
 memmory[12]7
 memmory[13]8847381
 memmory[14]3080197
@@ -25,18 +25,18 @@ memmory[21]1
 state: 1
 		pc:0
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -60,18 +60,18 @@ state: 1
 state: 2
 		pc:1
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -85,28 +85,28 @@ state: 2
 		register:
 			reg[0]0
 			reg[1]0
-			reg[2]0
+			reg[2]10383
 			reg[3]0
 			reg[4]0
-			reg[5]1
+			reg[5]0
 			reg[6]0
 			reg[7]0
 
 state: 3
 		pc:2
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -121,27 +121,27 @@ state: 3
 			reg[0]0
 			reg[1]0
 			reg[2]10383
-			reg[3]0
+			reg[3]32766
 			reg[4]0
-			reg[5]1
+			reg[5]0
 			reg[6]0
 			reg[7]0
 
 state: 4
 		pc:3
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -156,27 +156,27 @@ state: 4
 			reg[0]0
 			reg[1]0
 			reg[2]10383
-			reg[3]0
-			reg[4]0
-			reg[5]1
-			reg[6]15
+			reg[3]32766
+			reg[4]1
+			reg[5]0
+			reg[6]0
 			reg[7]0
 
 state: 5
 		pc:4
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -191,27 +191,27 @@ state: 5
 			reg[0]0
 			reg[1]0
 			reg[2]10383
-			reg[3]0
+			reg[3]32766
 			reg[4]1
 			reg[5]1
-			reg[6]15
+			reg[6]0
 			reg[7]0
 
 state: 6
 		pc:5
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -224,9 +224,9 @@ state: 6
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]32766
+			reg[1]0
 			reg[2]10383
-			reg[3]0
+			reg[3]32766
 			reg[4]1
 			reg[5]1
 			reg[6]15
@@ -235,18 +235,18 @@ state: 6
 state: 7
 		pc:6
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -259,9 +259,9 @@ state: 7
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]32766
+			reg[1]0
 			reg[2]10383
-			reg[3]0
+			reg[3]32766
 			reg[4]1
 			reg[5]1
 			reg[6]15
@@ -270,18 +270,18 @@ state: 7
 state: 8
 		pc:7
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -294,9 +294,9 @@ state: 8
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]32766
+			reg[1]0
 			reg[2]10383
-			reg[3]0
+			reg[3]32766
 			reg[4]1
 			reg[5]1
 			reg[6]15
@@ -305,18 +305,18 @@ state: 8
 state: 9
 		pc:8
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -329,9 +329,9 @@ state: 9
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]32766
+			reg[1]0
 			reg[2]10383
-			reg[3]0
+			reg[3]32766
 			reg[4]1
 			reg[5]1
 			reg[6]15
@@ -340,18 +340,18 @@ state: 9
 state: 10
 		pc:9
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -364,9 +364,9 @@ state: 10
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]32766
+			reg[1]0
 			reg[2]10383
-			reg[3]0
+			reg[3]32766
 			reg[4]1
 			reg[5]1
 			reg[6]15
@@ -375,18 +375,18 @@ state: 10
 state: 11
 		pc:10
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -399,9 +399,9 @@ state: 11
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]32766
+			reg[1]0
 			reg[2]10383
-			reg[3]0
+			reg[3]32766
 			reg[4]1
 			reg[5]1
 			reg[6]15
@@ -410,18 +410,18 @@ state: 11
 state: 12
 		pc:11
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -445,18 +445,18 @@ state: 12
 state: 13
 		pc:12
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -469,9 +469,9 @@ state: 13
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]65532
+			reg[1]32766
 			reg[2]10383
-			reg[3]32766
+			reg[3]65532
 			reg[4]1
 			reg[5]1
 			reg[6]15
@@ -480,18 +480,18 @@ state: 13
 state: 14
 		pc:13
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -504,9 +504,9 @@ state: 14
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]65532
+			reg[1]32766
 			reg[2]10383
-			reg[3]32766
+			reg[3]65532
 			reg[4]1
 			reg[5]1
 			reg[6]15
@@ -515,18 +515,18 @@ state: 14
 state: 15
 		pc:14
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -539,9 +539,9 @@ state: 15
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]65532
+			reg[1]32766
 			reg[2]10383
-			reg[3]32766
+			reg[3]65532
 			reg[4]1
 			reg[5]1
 			reg[6]15
@@ -550,18 +550,18 @@ state: 15
 state: 16
 		pc:15
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -574,9 +574,9 @@ state: 16
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]65532
+			reg[1]32766
 			reg[2]10383
-			reg[3]32766
+			reg[3]65532
 			reg[4]1
 			reg[5]2
 			reg[6]15
@@ -585,18 +585,18 @@ state: 16
 state: 17
 		pc:16
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -609,9 +609,9 @@ state: 17
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]65532
+			reg[1]32766
 			reg[2]10383
-			reg[3]32766
+			reg[3]65532
 			reg[4]2
 			reg[5]2
 			reg[6]15
@@ -620,18 +620,18 @@ state: 17
 state: 18
 		pc:5
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -644,9 +644,9 @@ state: 18
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]65532
+			reg[1]32766
 			reg[2]10383
-			reg[3]32766
+			reg[3]65532
 			reg[4]2
 			reg[5]2
 			reg[6]15
@@ -655,18 +655,18 @@ state: 18
 state: 19
 		pc:6
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -679,9 +679,9 @@ state: 19
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]65532
+			reg[1]32766
 			reg[2]10383
-			reg[3]32766
+			reg[3]65532
 			reg[4]2
 			reg[5]2
 			reg[6]15
@@ -690,18 +690,18 @@ state: 19
 state: 20
 		pc:7
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -714,9 +714,9 @@ state: 20
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]65532
+			reg[1]32766
 			reg[2]10383
-			reg[3]32766
+			reg[3]65532
 			reg[4]2
 			reg[5]2
 			reg[6]15
@@ -725,18 +725,18 @@ state: 20
 state: 21
 		pc:8
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -749,9 +749,9 @@ state: 21
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]65532
+			reg[1]32766
 			reg[2]10383
-			reg[3]32766
+			reg[3]65532
 			reg[4]2
 			reg[5]2
 			reg[6]15
@@ -760,18 +760,18 @@ state: 21
 state: 22
 		pc:9
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -784,9 +784,9 @@ state: 22
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]65532
+			reg[1]32766
 			reg[2]10383
-			reg[3]32766
+			reg[3]65532
 			reg[4]2
 			reg[5]2
 			reg[6]15
@@ -795,18 +795,18 @@ state: 22
 state: 23
 		pc:10
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -819,9 +819,9 @@ state: 23
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]65532
+			reg[1]32766
 			reg[2]10383
-			reg[3]32766
+			reg[3]65532
 			reg[4]2
 			reg[5]2
 			reg[6]15
@@ -830,18 +830,18 @@ state: 23
 state: 24
 		pc:11
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -854,9 +854,9 @@ state: 24
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]65532
+			reg[1]98298
 			reg[2]10383
-			reg[3]98298
+			reg[3]65532
 			reg[4]2
 			reg[5]2
 			reg[6]15
@@ -865,18 +865,18 @@ state: 24
 state: 25
 		pc:12
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -889,9 +889,9 @@ state: 25
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]131064
+			reg[1]98298
 			reg[2]10383
-			reg[3]98298
+			reg[3]131064
 			reg[4]2
 			reg[5]2
 			reg[6]15
@@ -900,18 +900,18 @@ state: 25
 state: 26
 		pc:13
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -924,9 +924,9 @@ state: 26
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]131064
+			reg[1]98298
 			reg[2]10383
-			reg[3]98298
+			reg[3]131064
 			reg[4]2
 			reg[5]2
 			reg[6]15
@@ -935,18 +935,18 @@ state: 26
 state: 27
 		pc:14
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -959,9 +959,9 @@ state: 27
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]131064
+			reg[1]98298
 			reg[2]10383
-			reg[3]98298
+			reg[3]131064
 			reg[4]2
 			reg[5]2
 			reg[6]15
@@ -970,18 +970,18 @@ state: 27
 state: 28
 		pc:15
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -994,9 +994,9 @@ state: 28
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]131064
+			reg[1]98298
 			reg[2]10383
-			reg[3]98298
+			reg[3]131064
 			reg[4]2
 			reg[5]3
 			reg[6]15
@@ -1005,18 +1005,18 @@ state: 28
 state: 29
 		pc:16
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -1029,9 +1029,9 @@ state: 29
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]131064
+			reg[1]98298
 			reg[2]10383
-			reg[3]98298
+			reg[3]131064
 			reg[4]4
 			reg[5]3
 			reg[6]15
@@ -1040,18 +1040,18 @@ state: 29
 state: 30
 		pc:5
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -1064,9 +1064,9 @@ state: 30
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]131064
+			reg[1]98298
 			reg[2]10383
-			reg[3]98298
+			reg[3]131064
 			reg[4]4
 			reg[5]3
 			reg[6]15
@@ -1075,18 +1075,18 @@ state: 30
 state: 31
 		pc:6
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -1099,9 +1099,9 @@ state: 31
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]131064
+			reg[1]98298
 			reg[2]10383
-			reg[3]98298
+			reg[3]131064
 			reg[4]4
 			reg[5]3
 			reg[6]15
@@ -1110,18 +1110,18 @@ state: 31
 state: 32
 		pc:7
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -1134,9 +1134,9 @@ state: 32
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]131064
+			reg[1]98298
 			reg[2]10383
-			reg[3]98298
+			reg[3]131064
 			reg[4]4
 			reg[5]3
 			reg[6]15
@@ -1145,18 +1145,18 @@ state: 32
 state: 33
 		pc:8
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -1169,9 +1169,9 @@ state: 33
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]131064
+			reg[1]98298
 			reg[2]10383
-			reg[3]98298
+			reg[3]131064
 			reg[4]4
 			reg[5]3
 			reg[6]15
@@ -1180,18 +1180,18 @@ state: 33
 state: 34
 		pc:9
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -1204,9 +1204,9 @@ state: 34
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]131064
+			reg[1]98298
 			reg[2]10383
-			reg[3]98298
+			reg[3]131064
 			reg[4]4
 			reg[5]3
 			reg[6]15
@@ -1215,18 +1215,18 @@ state: 34
 state: 35
 		pc:10
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -1239,9 +1239,9 @@ state: 35
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]131064
+			reg[1]98298
 			reg[2]10383
-			reg[3]98298
+			reg[3]131064
 			reg[4]4
 			reg[5]3
 			reg[6]15
@@ -1250,18 +1250,18 @@ state: 35
 state: 36
 		pc:11
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -1274,9 +1274,9 @@ state: 36
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]131064
+			reg[1]229362
 			reg[2]10383
-			reg[3]229362
+			reg[3]131064
 			reg[4]4
 			reg[5]3
 			reg[6]15
@@ -1285,18 +1285,18 @@ state: 36
 state: 37
 		pc:12
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -1309,9 +1309,9 @@ state: 37
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]262128
+			reg[1]229362
 			reg[2]10383
-			reg[3]229362
+			reg[3]262128
 			reg[4]4
 			reg[5]3
 			reg[6]15
@@ -1320,18 +1320,18 @@ state: 37
 state: 38
 		pc:13
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -1344,9 +1344,9 @@ state: 38
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]262128
+			reg[1]229362
 			reg[2]10383
-			reg[3]229362
+			reg[3]262128
 			reg[4]4
 			reg[5]3
 			reg[6]15
@@ -1355,18 +1355,18 @@ state: 38
 state: 39
 		pc:14
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -1379,9 +1379,9 @@ state: 39
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]262128
+			reg[1]229362
 			reg[2]10383
-			reg[3]229362
+			reg[3]262128
 			reg[4]4
 			reg[5]3
 			reg[6]15
@@ -1390,18 +1390,18 @@ state: 39
 state: 40
 		pc:15
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -1414,9 +1414,9 @@ state: 40
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]262128
+			reg[1]229362
 			reg[2]10383
-			reg[3]229362
+			reg[3]262128
 			reg[4]4
 			reg[5]4
 			reg[6]15
@@ -1425,18 +1425,18 @@ state: 40
 state: 41
 		pc:16
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -1449,9 +1449,9 @@ state: 41
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]262128
+			reg[1]229362
 			reg[2]10383
-			reg[3]229362
+			reg[3]262128
 			reg[4]8
 			reg[5]4
 			reg[6]15
@@ -1460,18 +1460,18 @@ state: 41
 state: 42
 		pc:5
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -1484,9 +1484,9 @@ state: 42
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]262128
+			reg[1]229362
 			reg[2]10383
-			reg[3]229362
+			reg[3]262128
 			reg[4]8
 			reg[5]4
 			reg[6]15
@@ -1495,18 +1495,18 @@ state: 42
 state: 43
 		pc:6
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -1519,9 +1519,9 @@ state: 43
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]262128
+			reg[1]229362
 			reg[2]10383
-			reg[3]229362
+			reg[3]262128
 			reg[4]8
 			reg[5]4
 			reg[6]15
@@ -1530,18 +1530,18 @@ state: 43
 state: 44
 		pc:7
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -1554,9 +1554,9 @@ state: 44
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]262128
+			reg[1]229362
 			reg[2]10383
-			reg[3]229362
+			reg[3]262128
 			reg[4]8
 			reg[5]4
 			reg[6]15
@@ -1565,18 +1565,18 @@ state: 44
 state: 45
 		pc:8
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -1589,9 +1589,9 @@ state: 45
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]262128
+			reg[1]229362
 			reg[2]10383
-			reg[3]229362
+			reg[3]262128
 			reg[4]8
 			reg[5]4
 			reg[6]15
@@ -1600,18 +1600,18 @@ state: 45
 state: 46
 		pc:9
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -1624,9 +1624,9 @@ state: 46
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]262128
+			reg[1]229362
 			reg[2]10383
-			reg[3]229362
+			reg[3]262128
 			reg[4]8
 			reg[5]4
 			reg[6]15
@@ -1635,18 +1635,18 @@ state: 46
 state: 47
 		pc:10
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -1659,9 +1659,9 @@ state: 47
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]262128
+			reg[1]229362
 			reg[2]10383
-			reg[3]229362
+			reg[3]262128
 			reg[4]8
 			reg[5]4
 			reg[6]15
@@ -1670,18 +1670,18 @@ state: 47
 state: 48
 		pc:11
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -1694,9 +1694,9 @@ state: 48
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]262128
+			reg[1]491490
 			reg[2]10383
-			reg[3]491490
+			reg[3]262128
 			reg[4]8
 			reg[5]4
 			reg[6]15
@@ -1705,18 +1705,18 @@ state: 48
 state: 49
 		pc:12
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -1729,9 +1729,9 @@ state: 49
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]524256
+			reg[1]491490
 			reg[2]10383
-			reg[3]491490
+			reg[3]524256
 			reg[4]8
 			reg[5]4
 			reg[6]15
@@ -1740,18 +1740,18 @@ state: 49
 state: 50
 		pc:13
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -1764,9 +1764,9 @@ state: 50
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]524256
+			reg[1]491490
 			reg[2]10383
-			reg[3]491490
+			reg[3]524256
 			reg[4]8
 			reg[5]4
 			reg[6]15
@@ -1775,18 +1775,18 @@ state: 50
 state: 51
 		pc:14
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -1799,9 +1799,9 @@ state: 51
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]524256
+			reg[1]491490
 			reg[2]10383
-			reg[3]491490
+			reg[3]524256
 			reg[4]8
 			reg[5]4
 			reg[6]15
@@ -1810,18 +1810,18 @@ state: 51
 state: 52
 		pc:15
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -1834,9 +1834,9 @@ state: 52
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]524256
+			reg[1]491490
 			reg[2]10383
-			reg[3]491490
+			reg[3]524256
 			reg[4]8
 			reg[5]5
 			reg[6]15
@@ -1845,18 +1845,18 @@ state: 52
 state: 53
 		pc:16
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -1869,9 +1869,9 @@ state: 53
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]524256
+			reg[1]491490
 			reg[2]10383
-			reg[3]491490
+			reg[3]524256
 			reg[4]16
 			reg[5]5
 			reg[6]15
@@ -1880,18 +1880,18 @@ state: 53
 state: 54
 		pc:5
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -1904,9 +1904,9 @@ state: 54
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]524256
+			reg[1]491490
 			reg[2]10383
-			reg[3]491490
+			reg[3]524256
 			reg[4]16
 			reg[5]5
 			reg[6]15
@@ -1915,18 +1915,18 @@ state: 54
 state: 55
 		pc:6
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -1939,9 +1939,9 @@ state: 55
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]524256
+			reg[1]491490
 			reg[2]10383
-			reg[3]491490
+			reg[3]524256
 			reg[4]16
 			reg[5]5
 			reg[6]15
@@ -1950,18 +1950,18 @@ state: 55
 state: 56
 		pc:7
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -1974,9 +1974,9 @@ state: 56
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]524256
+			reg[1]491490
 			reg[2]10383
-			reg[3]491490
+			reg[3]524256
 			reg[4]16
 			reg[5]5
 			reg[6]15
@@ -1985,18 +1985,18 @@ state: 56
 state: 57
 		pc:8
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -2009,9 +2009,9 @@ state: 57
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]524256
+			reg[1]491490
 			reg[2]10383
-			reg[3]491490
+			reg[3]524256
 			reg[4]16
 			reg[5]5
 			reg[6]15
@@ -2020,18 +2020,18 @@ state: 57
 state: 58
 		pc:9
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -2044,9 +2044,9 @@ state: 58
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]524256
+			reg[1]491490
 			reg[2]10383
-			reg[3]491490
+			reg[3]524256
 			reg[4]16
 			reg[5]5
 			reg[6]15
@@ -2055,18 +2055,18 @@ state: 58
 state: 59
 		pc:11
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -2079,9 +2079,9 @@ state: 59
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]524256
+			reg[1]491490
 			reg[2]10383
-			reg[3]491490
+			reg[3]524256
 			reg[4]16
 			reg[5]5
 			reg[6]15
@@ -2090,18 +2090,18 @@ state: 59
 state: 60
 		pc:12
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -2114,9 +2114,9 @@ state: 60
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]1048512
+			reg[1]491490
 			reg[2]10383
-			reg[3]491490
+			reg[3]1048512
 			reg[4]16
 			reg[5]5
 			reg[6]15
@@ -2125,18 +2125,18 @@ state: 60
 state: 61
 		pc:13
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -2149,9 +2149,9 @@ state: 61
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]1048512
+			reg[1]491490
 			reg[2]10383
-			reg[3]491490
+			reg[3]1048512
 			reg[4]16
 			reg[5]5
 			reg[6]15
@@ -2160,18 +2160,18 @@ state: 61
 state: 62
 		pc:14
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -2184,9 +2184,9 @@ state: 62
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]1048512
+			reg[1]491490
 			reg[2]10383
-			reg[3]491490
+			reg[3]1048512
 			reg[4]16
 			reg[5]5
 			reg[6]15
@@ -2195,18 +2195,18 @@ state: 62
 state: 63
 		pc:15
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -2219,9 +2219,9 @@ state: 63
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]1048512
+			reg[1]491490
 			reg[2]10383
-			reg[3]491490
+			reg[3]1048512
 			reg[4]16
 			reg[5]6
 			reg[6]15
@@ -2230,18 +2230,18 @@ state: 63
 state: 64
 		pc:16
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -2254,9 +2254,9 @@ state: 64
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]1048512
+			reg[1]491490
 			reg[2]10383
-			reg[3]491490
+			reg[3]1048512
 			reg[4]32
 			reg[5]6
 			reg[6]15
@@ -2265,18 +2265,18 @@ state: 64
 state: 65
 		pc:5
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -2289,9 +2289,9 @@ state: 65
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]1048512
+			reg[1]491490
 			reg[2]10383
-			reg[3]491490
+			reg[3]1048512
 			reg[4]32
 			reg[5]6
 			reg[6]15
@@ -2300,18 +2300,18 @@ state: 65
 state: 66
 		pc:6
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -2324,9 +2324,9 @@ state: 66
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]1048512
+			reg[1]491490
 			reg[2]10383
-			reg[3]491490
+			reg[3]1048512
 			reg[4]32
 			reg[5]6
 			reg[6]15
@@ -2335,18 +2335,18 @@ state: 66
 state: 67
 		pc:7
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -2359,9 +2359,9 @@ state: 67
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]1048512
+			reg[1]491490
 			reg[2]10383
-			reg[3]491490
+			reg[3]1048512
 			reg[4]32
 			reg[5]6
 			reg[6]15
@@ -2370,18 +2370,18 @@ state: 67
 state: 68
 		pc:8
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -2394,9 +2394,9 @@ state: 68
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]1048512
+			reg[1]491490
 			reg[2]10383
-			reg[3]491490
+			reg[3]1048512
 			reg[4]32
 			reg[5]6
 			reg[6]15
@@ -2405,18 +2405,18 @@ state: 68
 state: 69
 		pc:9
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -2429,9 +2429,9 @@ state: 69
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]1048512
+			reg[1]491490
 			reg[2]10383
-			reg[3]491490
+			reg[3]1048512
 			reg[4]32
 			reg[5]6
 			reg[6]15
@@ -2440,18 +2440,18 @@ state: 69
 state: 70
 		pc:11
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -2464,9 +2464,9 @@ state: 70
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]1048512
+			reg[1]491490
 			reg[2]10383
-			reg[3]491490
+			reg[3]1048512
 			reg[4]32
 			reg[5]6
 			reg[6]15
@@ -2475,18 +2475,18 @@ state: 70
 state: 71
 		pc:12
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -2499,9 +2499,9 @@ state: 71
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]2097024
+			reg[1]491490
 			reg[2]10383
-			reg[3]491490
+			reg[3]2097024
 			reg[4]32
 			reg[5]6
 			reg[6]15
@@ -2510,18 +2510,18 @@ state: 71
 state: 72
 		pc:13
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -2534,9 +2534,9 @@ state: 72
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]2097024
+			reg[1]491490
 			reg[2]10383
-			reg[3]491490
+			reg[3]2097024
 			reg[4]32
 			reg[5]6
 			reg[6]15
@@ -2545,18 +2545,18 @@ state: 72
 state: 73
 		pc:14
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -2569,9 +2569,9 @@ state: 73
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]2097024
+			reg[1]491490
 			reg[2]10383
-			reg[3]491490
+			reg[3]2097024
 			reg[4]32
 			reg[5]6
 			reg[6]15
@@ -2580,18 +2580,18 @@ state: 73
 state: 74
 		pc:15
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -2604,9 +2604,9 @@ state: 74
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]2097024
+			reg[1]491490
 			reg[2]10383
-			reg[3]491490
+			reg[3]2097024
 			reg[4]32
 			reg[5]7
 			reg[6]15
@@ -2615,18 +2615,18 @@ state: 74
 state: 75
 		pc:16
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -2639,9 +2639,9 @@ state: 75
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]2097024
+			reg[1]491490
 			reg[2]10383
-			reg[3]491490
+			reg[3]2097024
 			reg[4]64
 			reg[5]7
 			reg[6]15
@@ -2650,18 +2650,18 @@ state: 75
 state: 76
 		pc:5
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -2674,9 +2674,9 @@ state: 76
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]2097024
+			reg[1]491490
 			reg[2]10383
-			reg[3]491490
+			reg[3]2097024
 			reg[4]64
 			reg[5]7
 			reg[6]15
@@ -2685,18 +2685,18 @@ state: 76
 state: 77
 		pc:6
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -2709,9 +2709,9 @@ state: 77
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]2097024
+			reg[1]491490
 			reg[2]10383
-			reg[3]491490
+			reg[3]2097024
 			reg[4]64
 			reg[5]7
 			reg[6]15
@@ -2720,18 +2720,18 @@ state: 77
 state: 78
 		pc:7
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -2744,9 +2744,9 @@ state: 78
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]2097024
+			reg[1]491490
 			reg[2]10383
-			reg[3]491490
+			reg[3]2097024
 			reg[4]64
 			reg[5]7
 			reg[6]15
@@ -2755,18 +2755,18 @@ state: 78
 state: 79
 		pc:8
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -2779,9 +2779,9 @@ state: 79
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]2097024
+			reg[1]491490
 			reg[2]10383
-			reg[3]491490
+			reg[3]2097024
 			reg[4]64
 			reg[5]7
 			reg[6]15
@@ -2790,18 +2790,18 @@ state: 79
 state: 80
 		pc:9
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -2814,9 +2814,9 @@ state: 80
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]2097024
+			reg[1]491490
 			reg[2]10383
-			reg[3]491490
+			reg[3]2097024
 			reg[4]64
 			reg[5]7
 			reg[6]15
@@ -2825,18 +2825,18 @@ state: 80
 state: 81
 		pc:11
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -2849,9 +2849,9 @@ state: 81
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]2097024
+			reg[1]491490
 			reg[2]10383
-			reg[3]491490
+			reg[3]2097024
 			reg[4]64
 			reg[5]7
 			reg[6]15
@@ -2860,18 +2860,18 @@ state: 81
 state: 82
 		pc:12
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -2884,9 +2884,9 @@ state: 82
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]4194048
+			reg[1]491490
 			reg[2]10383
-			reg[3]491490
+			reg[3]4194048
 			reg[4]64
 			reg[5]7
 			reg[6]15
@@ -2895,18 +2895,18 @@ state: 82
 state: 83
 		pc:13
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -2919,9 +2919,9 @@ state: 83
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]4194048
+			reg[1]491490
 			reg[2]10383
-			reg[3]491490
+			reg[3]4194048
 			reg[4]64
 			reg[5]7
 			reg[6]15
@@ -2930,18 +2930,18 @@ state: 83
 state: 84
 		pc:14
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -2954,9 +2954,9 @@ state: 84
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]4194048
+			reg[1]491490
 			reg[2]10383
-			reg[3]491490
+			reg[3]4194048
 			reg[4]64
 			reg[5]7
 			reg[6]15
@@ -2965,18 +2965,18 @@ state: 84
 state: 85
 		pc:15
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -2989,9 +2989,9 @@ state: 85
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]4194048
+			reg[1]491490
 			reg[2]10383
-			reg[3]491490
+			reg[3]4194048
 			reg[4]64
 			reg[5]8
 			reg[6]15
@@ -3000,18 +3000,18 @@ state: 85
 state: 86
 		pc:16
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -3024,9 +3024,9 @@ state: 86
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]4194048
+			reg[1]491490
 			reg[2]10383
-			reg[3]491490
+			reg[3]4194048
 			reg[4]128
 			reg[5]8
 			reg[6]15
@@ -3035,18 +3035,18 @@ state: 86
 state: 87
 		pc:5
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -3059,9 +3059,9 @@ state: 87
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]4194048
+			reg[1]491490
 			reg[2]10383
-			reg[3]491490
+			reg[3]4194048
 			reg[4]128
 			reg[5]8
 			reg[6]15
@@ -3070,18 +3070,18 @@ state: 87
 state: 88
 		pc:6
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -3094,9 +3094,9 @@ state: 88
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]4194048
+			reg[1]491490
 			reg[2]10383
-			reg[3]491490
+			reg[3]4194048
 			reg[4]128
 			reg[5]8
 			reg[6]15
@@ -3105,18 +3105,18 @@ state: 88
 state: 89
 		pc:7
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -3129,9 +3129,9 @@ state: 89
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]4194048
+			reg[1]491490
 			reg[2]10383
-			reg[3]491490
+			reg[3]4194048
 			reg[4]128
 			reg[5]8
 			reg[6]15
@@ -3140,18 +3140,18 @@ state: 89
 state: 90
 		pc:8
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -3164,9 +3164,9 @@ state: 90
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]4194048
+			reg[1]491490
 			reg[2]10383
-			reg[3]491490
+			reg[3]4194048
 			reg[4]128
 			reg[5]8
 			reg[6]15
@@ -3175,18 +3175,18 @@ state: 90
 state: 91
 		pc:9
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -3199,9 +3199,9 @@ state: 91
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]4194048
+			reg[1]491490
 			reg[2]10383
-			reg[3]491490
+			reg[3]4194048
 			reg[4]128
 			reg[5]8
 			reg[6]15
@@ -3210,18 +3210,18 @@ state: 91
 state: 92
 		pc:10
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -3234,9 +3234,9 @@ state: 92
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]4194048
+			reg[1]491490
 			reg[2]10383
-			reg[3]491490
+			reg[3]4194048
 			reg[4]128
 			reg[5]8
 			reg[6]15
@@ -3245,18 +3245,18 @@ state: 92
 state: 93
 		pc:11
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -3269,9 +3269,9 @@ state: 93
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]4194048
+			reg[1]4685538
 			reg[2]10383
-			reg[3]4685538
+			reg[3]4194048
 			reg[4]128
 			reg[5]8
 			reg[6]15
@@ -3280,18 +3280,18 @@ state: 93
 state: 94
 		pc:12
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -3304,9 +3304,9 @@ state: 94
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]8388096
+			reg[1]4685538
 			reg[2]10383
-			reg[3]4685538
+			reg[3]8388096
 			reg[4]128
 			reg[5]8
 			reg[6]15
@@ -3315,18 +3315,18 @@ state: 94
 state: 95
 		pc:13
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -3339,9 +3339,9 @@ state: 95
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]8388096
+			reg[1]4685538
 			reg[2]10383
-			reg[3]4685538
+			reg[3]8388096
 			reg[4]128
 			reg[5]8
 			reg[6]15
@@ -3350,18 +3350,18 @@ state: 95
 state: 96
 		pc:14
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -3374,9 +3374,9 @@ state: 96
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]8388096
+			reg[1]4685538
 			reg[2]10383
-			reg[3]4685538
+			reg[3]8388096
 			reg[4]128
 			reg[5]8
 			reg[6]15
@@ -3385,18 +3385,18 @@ state: 96
 state: 97
 		pc:15
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -3409,9 +3409,9 @@ state: 97
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]8388096
+			reg[1]4685538
 			reg[2]10383
-			reg[3]4685538
+			reg[3]8388096
 			reg[4]128
 			reg[5]9
 			reg[6]15
@@ -3420,18 +3420,18 @@ state: 97
 state: 98
 		pc:16
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -3444,9 +3444,9 @@ state: 98
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]8388096
+			reg[1]4685538
 			reg[2]10383
-			reg[3]4685538
+			reg[3]8388096
 			reg[4]256
 			reg[5]9
 			reg[6]15
@@ -3455,18 +3455,18 @@ state: 98
 state: 99
 		pc:5
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -3479,9 +3479,9 @@ state: 99
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]8388096
+			reg[1]4685538
 			reg[2]10383
-			reg[3]4685538
+			reg[3]8388096
 			reg[4]256
 			reg[5]9
 			reg[6]15
@@ -3490,18 +3490,18 @@ state: 99
 state: 100
 		pc:6
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -3514,9 +3514,9 @@ state: 100
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]8388096
+			reg[1]4685538
 			reg[2]10383
-			reg[3]4685538
+			reg[3]8388096
 			reg[4]256
 			reg[5]9
 			reg[6]15
@@ -3525,18 +3525,18 @@ state: 100
 state: 101
 		pc:7
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -3549,9 +3549,9 @@ state: 101
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]8388096
+			reg[1]4685538
 			reg[2]10383
-			reg[3]4685538
+			reg[3]8388096
 			reg[4]256
 			reg[5]9
 			reg[6]15
@@ -3560,18 +3560,18 @@ state: 101
 state: 102
 		pc:8
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -3584,9 +3584,9 @@ state: 102
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]8388096
+			reg[1]4685538
 			reg[2]10383
-			reg[3]4685538
+			reg[3]8388096
 			reg[4]256
 			reg[5]9
 			reg[6]15
@@ -3595,18 +3595,18 @@ state: 102
 state: 103
 		pc:9
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -3619,9 +3619,9 @@ state: 103
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]8388096
+			reg[1]4685538
 			reg[2]10383
-			reg[3]4685538
+			reg[3]8388096
 			reg[4]256
 			reg[5]9
 			reg[6]15
@@ -3630,18 +3630,18 @@ state: 103
 state: 104
 		pc:11
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -3654,9 +3654,9 @@ state: 104
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]8388096
+			reg[1]4685538
 			reg[2]10383
-			reg[3]4685538
+			reg[3]8388096
 			reg[4]256
 			reg[5]9
 			reg[6]15
@@ -3665,18 +3665,18 @@ state: 104
 state: 105
 		pc:12
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -3689,9 +3689,9 @@ state: 105
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]16776192
+			reg[1]4685538
 			reg[2]10383
-			reg[3]4685538
+			reg[3]16776192
 			reg[4]256
 			reg[5]9
 			reg[6]15
@@ -3700,18 +3700,18 @@ state: 105
 state: 106
 		pc:13
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -3724,9 +3724,9 @@ state: 106
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]16776192
+			reg[1]4685538
 			reg[2]10383
-			reg[3]4685538
+			reg[3]16776192
 			reg[4]256
 			reg[5]9
 			reg[6]15
@@ -3735,18 +3735,18 @@ state: 106
 state: 107
 		pc:14
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -3759,9 +3759,9 @@ state: 107
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]16776192
+			reg[1]4685538
 			reg[2]10383
-			reg[3]4685538
+			reg[3]16776192
 			reg[4]256
 			reg[5]9
 			reg[6]15
@@ -3770,18 +3770,18 @@ state: 107
 state: 108
 		pc:15
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -3794,9 +3794,9 @@ state: 108
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]16776192
+			reg[1]4685538
 			reg[2]10383
-			reg[3]4685538
+			reg[3]16776192
 			reg[4]256
 			reg[5]10
 			reg[6]15
@@ -3805,18 +3805,18 @@ state: 108
 state: 109
 		pc:16
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -3829,9 +3829,9 @@ state: 109
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]16776192
+			reg[1]4685538
 			reg[2]10383
-			reg[3]4685538
+			reg[3]16776192
 			reg[4]512
 			reg[5]10
 			reg[6]15
@@ -3840,18 +3840,18 @@ state: 109
 state: 110
 		pc:5
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -3864,9 +3864,9 @@ state: 110
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]16776192
+			reg[1]4685538
 			reg[2]10383
-			reg[3]4685538
+			reg[3]16776192
 			reg[4]512
 			reg[5]10
 			reg[6]15
@@ -3875,18 +3875,18 @@ state: 110
 state: 111
 		pc:6
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -3899,9 +3899,9 @@ state: 111
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]16776192
+			reg[1]4685538
 			reg[2]10383
-			reg[3]4685538
+			reg[3]16776192
 			reg[4]512
 			reg[5]10
 			reg[6]15
@@ -3910,18 +3910,18 @@ state: 111
 state: 112
 		pc:7
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -3934,9 +3934,9 @@ state: 112
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]16776192
+			reg[1]4685538
 			reg[2]10383
-			reg[3]4685538
+			reg[3]16776192
 			reg[4]512
 			reg[5]10
 			reg[6]15
@@ -3945,18 +3945,18 @@ state: 112
 state: 113
 		pc:8
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -3969,9 +3969,9 @@ state: 113
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]16776192
+			reg[1]4685538
 			reg[2]10383
-			reg[3]4685538
+			reg[3]16776192
 			reg[4]512
 			reg[5]10
 			reg[6]15
@@ -3980,18 +3980,18 @@ state: 113
 state: 114
 		pc:9
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -4004,9 +4004,9 @@ state: 114
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]16776192
+			reg[1]4685538
 			reg[2]10383
-			reg[3]4685538
+			reg[3]16776192
 			reg[4]512
 			reg[5]10
 			reg[6]15
@@ -4015,18 +4015,18 @@ state: 114
 state: 115
 		pc:11
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -4039,9 +4039,9 @@ state: 115
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]16776192
+			reg[1]4685538
 			reg[2]10383
-			reg[3]4685538
+			reg[3]16776192
 			reg[4]512
 			reg[5]10
 			reg[6]15
@@ -4050,18 +4050,18 @@ state: 115
 state: 116
 		pc:12
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -4074,9 +4074,9 @@ state: 116
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]33552384
+			reg[1]4685538
 			reg[2]10383
-			reg[3]4685538
+			reg[3]33552384
 			reg[4]512
 			reg[5]10
 			reg[6]15
@@ -4085,18 +4085,18 @@ state: 116
 state: 117
 		pc:13
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -4109,9 +4109,9 @@ state: 117
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]33552384
+			reg[1]4685538
 			reg[2]10383
-			reg[3]4685538
+			reg[3]33552384
 			reg[4]512
 			reg[5]10
 			reg[6]15
@@ -4120,18 +4120,18 @@ state: 117
 state: 118
 		pc:14
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -4144,9 +4144,9 @@ state: 118
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]33552384
+			reg[1]4685538
 			reg[2]10383
-			reg[3]4685538
+			reg[3]33552384
 			reg[4]512
 			reg[5]10
 			reg[6]15
@@ -4155,18 +4155,18 @@ state: 118
 state: 119
 		pc:15
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -4179,9 +4179,9 @@ state: 119
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]33552384
+			reg[1]4685538
 			reg[2]10383
-			reg[3]4685538
+			reg[3]33552384
 			reg[4]512
 			reg[5]11
 			reg[6]15
@@ -4190,18 +4190,18 @@ state: 119
 state: 120
 		pc:16
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -4214,9 +4214,9 @@ state: 120
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]33552384
+			reg[1]4685538
 			reg[2]10383
-			reg[3]4685538
+			reg[3]33552384
 			reg[4]1024
 			reg[5]11
 			reg[6]15
@@ -4225,18 +4225,18 @@ state: 120
 state: 121
 		pc:5
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -4249,9 +4249,9 @@ state: 121
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]33552384
+			reg[1]4685538
 			reg[2]10383
-			reg[3]4685538
+			reg[3]33552384
 			reg[4]1024
 			reg[5]11
 			reg[6]15
@@ -4260,18 +4260,18 @@ state: 121
 state: 122
 		pc:6
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -4284,9 +4284,9 @@ state: 122
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]33552384
+			reg[1]4685538
 			reg[2]10383
-			reg[3]4685538
+			reg[3]33552384
 			reg[4]1024
 			reg[5]11
 			reg[6]15
@@ -4295,18 +4295,18 @@ state: 122
 state: 123
 		pc:7
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -4319,9 +4319,9 @@ state: 123
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]33552384
+			reg[1]4685538
 			reg[2]10383
-			reg[3]4685538
+			reg[3]33552384
 			reg[4]1024
 			reg[5]11
 			reg[6]15
@@ -4330,18 +4330,18 @@ state: 123
 state: 124
 		pc:8
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -4354,9 +4354,9 @@ state: 124
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]33552384
+			reg[1]4685538
 			reg[2]10383
-			reg[3]4685538
+			reg[3]33552384
 			reg[4]1024
 			reg[5]11
 			reg[6]15
@@ -4365,18 +4365,18 @@ state: 124
 state: 125
 		pc:9
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -4389,9 +4389,9 @@ state: 125
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]33552384
+			reg[1]4685538
 			reg[2]10383
-			reg[3]4685538
+			reg[3]33552384
 			reg[4]1024
 			reg[5]11
 			reg[6]15
@@ -4400,18 +4400,18 @@ state: 125
 state: 126
 		pc:11
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -4424,9 +4424,9 @@ state: 126
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]33552384
+			reg[1]4685538
 			reg[2]10383
-			reg[3]4685538
+			reg[3]33552384
 			reg[4]1024
 			reg[5]11
 			reg[6]15
@@ -4435,18 +4435,18 @@ state: 126
 state: 127
 		pc:12
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -4459,9 +4459,9 @@ state: 127
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]67104768
+			reg[1]4685538
 			reg[2]10383
-			reg[3]4685538
+			reg[3]67104768
 			reg[4]1024
 			reg[5]11
 			reg[6]15
@@ -4470,18 +4470,18 @@ state: 127
 state: 128
 		pc:13
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -4494,9 +4494,9 @@ state: 128
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]67104768
+			reg[1]4685538
 			reg[2]10383
-			reg[3]4685538
+			reg[3]67104768
 			reg[4]1024
 			reg[5]11
 			reg[6]15
@@ -4505,18 +4505,18 @@ state: 128
 state: 129
 		pc:14
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -4529,9 +4529,9 @@ state: 129
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]67104768
+			reg[1]4685538
 			reg[2]10383
-			reg[3]4685538
+			reg[3]67104768
 			reg[4]1024
 			reg[5]11
 			reg[6]15
@@ -4540,18 +4540,18 @@ state: 129
 state: 130
 		pc:15
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -4564,9 +4564,9 @@ state: 130
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]67104768
+			reg[1]4685538
 			reg[2]10383
-			reg[3]4685538
+			reg[3]67104768
 			reg[4]1024
 			reg[5]12
 			reg[6]15
@@ -4575,18 +4575,18 @@ state: 130
 state: 131
 		pc:16
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -4599,9 +4599,9 @@ state: 131
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]67104768
+			reg[1]4685538
 			reg[2]10383
-			reg[3]4685538
+			reg[3]67104768
 			reg[4]2048
 			reg[5]12
 			reg[6]15
@@ -4610,18 +4610,18 @@ state: 131
 state: 132
 		pc:5
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -4634,9 +4634,9 @@ state: 132
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]67104768
+			reg[1]4685538
 			reg[2]10383
-			reg[3]4685538
+			reg[3]67104768
 			reg[4]2048
 			reg[5]12
 			reg[6]15
@@ -4645,18 +4645,18 @@ state: 132
 state: 133
 		pc:6
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -4669,9 +4669,9 @@ state: 133
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]67104768
+			reg[1]4685538
 			reg[2]10383
-			reg[3]4685538
+			reg[3]67104768
 			reg[4]2048
 			reg[5]12
 			reg[6]15
@@ -4680,18 +4680,18 @@ state: 133
 state: 134
 		pc:7
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -4704,9 +4704,9 @@ state: 134
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]67104768
+			reg[1]4685538
 			reg[2]10383
-			reg[3]4685538
+			reg[3]67104768
 			reg[4]2048
 			reg[5]12
 			reg[6]15
@@ -4715,18 +4715,18 @@ state: 134
 state: 135
 		pc:8
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -4739,9 +4739,9 @@ state: 135
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]67104768
+			reg[1]4685538
 			reg[2]10383
-			reg[3]4685538
+			reg[3]67104768
 			reg[4]2048
 			reg[5]12
 			reg[6]15
@@ -4750,18 +4750,18 @@ state: 135
 state: 136
 		pc:9
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -4774,9 +4774,9 @@ state: 136
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]67104768
+			reg[1]4685538
 			reg[2]10383
-			reg[3]4685538
+			reg[3]67104768
 			reg[4]2048
 			reg[5]12
 			reg[6]15
@@ -4785,18 +4785,18 @@ state: 136
 state: 137
 		pc:10
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -4809,9 +4809,9 @@ state: 137
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]67104768
+			reg[1]4685538
 			reg[2]10383
-			reg[3]4685538
+			reg[3]67104768
 			reg[4]2048
 			reg[5]12
 			reg[6]15
@@ -4820,18 +4820,18 @@ state: 137
 state: 138
 		pc:11
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -4844,9 +4844,9 @@ state: 138
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]67104768
+			reg[1]71790306
 			reg[2]10383
-			reg[3]71790306
+			reg[3]67104768
 			reg[4]2048
 			reg[5]12
 			reg[6]15
@@ -4855,18 +4855,18 @@ state: 138
 state: 139
 		pc:12
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -4879,9 +4879,9 @@ state: 139
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]134209536
+			reg[1]71790306
 			reg[2]10383
-			reg[3]71790306
+			reg[3]134209536
 			reg[4]2048
 			reg[5]12
 			reg[6]15
@@ -4890,18 +4890,18 @@ state: 139
 state: 140
 		pc:13
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -4914,9 +4914,9 @@ state: 140
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]134209536
+			reg[1]71790306
 			reg[2]10383
-			reg[3]71790306
+			reg[3]134209536
 			reg[4]2048
 			reg[5]12
 			reg[6]15
@@ -4925,18 +4925,18 @@ state: 140
 state: 141
 		pc:14
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -4949,9 +4949,9 @@ state: 141
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]134209536
+			reg[1]71790306
 			reg[2]10383
-			reg[3]71790306
+			reg[3]134209536
 			reg[4]2048
 			reg[5]12
 			reg[6]15
@@ -4960,18 +4960,18 @@ state: 141
 state: 142
 		pc:15
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -4984,9 +4984,9 @@ state: 142
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]134209536
+			reg[1]71790306
 			reg[2]10383
-			reg[3]71790306
+			reg[3]134209536
 			reg[4]2048
 			reg[5]13
 			reg[6]15
@@ -4995,18 +4995,18 @@ state: 142
 state: 143
 		pc:16
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -5019,9 +5019,9 @@ state: 143
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]134209536
+			reg[1]71790306
 			reg[2]10383
-			reg[3]71790306
+			reg[3]134209536
 			reg[4]4096
 			reg[5]13
 			reg[6]15
@@ -5030,18 +5030,18 @@ state: 143
 state: 144
 		pc:5
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -5054,9 +5054,9 @@ state: 144
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]134209536
+			reg[1]71790306
 			reg[2]10383
-			reg[3]71790306
+			reg[3]134209536
 			reg[4]4096
 			reg[5]13
 			reg[6]15
@@ -5065,18 +5065,18 @@ state: 144
 state: 145
 		pc:6
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -5089,9 +5089,9 @@ state: 145
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]134209536
+			reg[1]71790306
 			reg[2]10383
-			reg[3]71790306
+			reg[3]134209536
 			reg[4]4096
 			reg[5]13
 			reg[6]15
@@ -5100,18 +5100,18 @@ state: 145
 state: 146
 		pc:7
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -5124,9 +5124,9 @@ state: 146
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]134209536
+			reg[1]71790306
 			reg[2]10383
-			reg[3]71790306
+			reg[3]134209536
 			reg[4]4096
 			reg[5]13
 			reg[6]15
@@ -5135,18 +5135,18 @@ state: 146
 state: 147
 		pc:8
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -5159,9 +5159,9 @@ state: 147
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]134209536
+			reg[1]71790306
 			reg[2]10383
-			reg[3]71790306
+			reg[3]134209536
 			reg[4]4096
 			reg[5]13
 			reg[6]15
@@ -5170,18 +5170,18 @@ state: 147
 state: 148
 		pc:9
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -5194,9 +5194,9 @@ state: 148
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]134209536
+			reg[1]71790306
 			reg[2]10383
-			reg[3]71790306
+			reg[3]134209536
 			reg[4]4096
 			reg[5]13
 			reg[6]15
@@ -5205,18 +5205,18 @@ state: 148
 state: 149
 		pc:11
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -5229,9 +5229,9 @@ state: 149
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]134209536
+			reg[1]71790306
 			reg[2]10383
-			reg[3]71790306
+			reg[3]134209536
 			reg[4]4096
 			reg[5]13
 			reg[6]15
@@ -5240,18 +5240,18 @@ state: 149
 state: 150
 		pc:12
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -5264,9 +5264,9 @@ state: 150
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]268419072
+			reg[1]71790306
 			reg[2]10383
-			reg[3]71790306
+			reg[3]268419072
 			reg[4]4096
 			reg[5]13
 			reg[6]15
@@ -5275,18 +5275,18 @@ state: 150
 state: 151
 		pc:13
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -5299,9 +5299,9 @@ state: 151
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]268419072
+			reg[1]71790306
 			reg[2]10383
-			reg[3]71790306
+			reg[3]268419072
 			reg[4]4096
 			reg[5]13
 			reg[6]15
@@ -5310,18 +5310,18 @@ state: 151
 state: 152
 		pc:14
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -5334,9 +5334,9 @@ state: 152
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]268419072
+			reg[1]71790306
 			reg[2]10383
-			reg[3]71790306
+			reg[3]268419072
 			reg[4]4096
 			reg[5]13
 			reg[6]15
@@ -5345,18 +5345,18 @@ state: 152
 state: 153
 		pc:15
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -5369,9 +5369,9 @@ state: 153
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]268419072
+			reg[1]71790306
 			reg[2]10383
-			reg[3]71790306
+			reg[3]268419072
 			reg[4]4096
 			reg[5]14
 			reg[6]15
@@ -5380,18 +5380,18 @@ state: 153
 state: 154
 		pc:16
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -5404,9 +5404,9 @@ state: 154
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]268419072
+			reg[1]71790306
 			reg[2]10383
-			reg[3]71790306
+			reg[3]268419072
 			reg[4]8192
 			reg[5]14
 			reg[6]15
@@ -5415,18 +5415,18 @@ state: 154
 state: 155
 		pc:5
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -5439,9 +5439,9 @@ state: 155
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]268419072
+			reg[1]71790306
 			reg[2]10383
-			reg[3]71790306
+			reg[3]268419072
 			reg[4]8192
 			reg[5]14
 			reg[6]15
@@ -5450,18 +5450,18 @@ state: 155
 state: 156
 		pc:6
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -5474,9 +5474,9 @@ state: 156
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]268419072
+			reg[1]71790306
 			reg[2]10383
-			reg[3]71790306
+			reg[3]268419072
 			reg[4]8192
 			reg[5]14
 			reg[6]15
@@ -5485,18 +5485,18 @@ state: 156
 state: 157
 		pc:7
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -5509,9 +5509,9 @@ state: 157
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]268419072
+			reg[1]71790306
 			reg[2]10383
-			reg[3]71790306
+			reg[3]268419072
 			reg[4]8192
 			reg[5]14
 			reg[6]15
@@ -5520,18 +5520,18 @@ state: 157
 state: 158
 		pc:8
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -5544,9 +5544,9 @@ state: 158
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]268419072
+			reg[1]71790306
 			reg[2]10383
-			reg[3]71790306
+			reg[3]268419072
 			reg[4]8192
 			reg[5]14
 			reg[6]15
@@ -5555,18 +5555,18 @@ state: 158
 state: 159
 		pc:9
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -5579,9 +5579,9 @@ state: 159
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]268419072
+			reg[1]71790306
 			reg[2]10383
-			reg[3]71790306
+			reg[3]268419072
 			reg[4]8192
 			reg[5]14
 			reg[6]15
@@ -5590,18 +5590,18 @@ state: 159
 state: 160
 		pc:10
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -5614,9 +5614,9 @@ state: 160
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]268419072
+			reg[1]71790306
 			reg[2]10383
-			reg[3]71790306
+			reg[3]268419072
 			reg[4]8192
 			reg[5]14
 			reg[6]15
@@ -5625,18 +5625,18 @@ state: 160
 state: 161
 		pc:11
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -5649,9 +5649,9 @@ state: 161
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]268419072
+			reg[1]340209378
 			reg[2]10383
-			reg[3]340209378
+			reg[3]268419072
 			reg[4]8192
 			reg[5]14
 			reg[6]15
@@ -5660,18 +5660,18 @@ state: 161
 state: 162
 		pc:12
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -5684,9 +5684,9 @@ state: 162
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]536838144
+			reg[1]340209378
 			reg[2]10383
-			reg[3]340209378
+			reg[3]536838144
 			reg[4]8192
 			reg[5]14
 			reg[6]15
@@ -5695,18 +5695,18 @@ state: 162
 state: 163
 		pc:13
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -5719,9 +5719,9 @@ state: 163
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]536838144
+			reg[1]340209378
 			reg[2]10383
-			reg[3]340209378
+			reg[3]536838144
 			reg[4]8192
 			reg[5]14
 			reg[6]15
@@ -5730,18 +5730,18 @@ state: 163
 state: 164
 		pc:14
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -5754,9 +5754,9 @@ state: 164
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]536838144
+			reg[1]340209378
 			reg[2]10383
-			reg[3]340209378
+			reg[3]536838144
 			reg[4]8192
 			reg[5]14
 			reg[6]15
@@ -5765,18 +5765,18 @@ state: 164
 state: 165
 		pc:15
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -5789,9 +5789,9 @@ state: 165
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]536838144
+			reg[1]340209378
 			reg[2]10383
-			reg[3]340209378
+			reg[3]536838144
 			reg[4]8192
 			reg[5]15
 			reg[6]15
@@ -5800,18 +5800,18 @@ state: 165
 state: 166
 		pc:16
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -5824,9 +5824,9 @@ state: 166
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]536838144
+			reg[1]340209378
 			reg[2]10383
-			reg[3]340209378
+			reg[3]536838144
 			reg[4]16384
 			reg[5]15
 			reg[6]15
@@ -5835,18 +5835,18 @@ state: 166
 state: 167
 		pc:5
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -5859,9 +5859,9 @@ state: 167
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]536838144
+			reg[1]340209378
 			reg[2]10383
-			reg[3]340209378
+			reg[3]536838144
 			reg[4]16384
 			reg[5]15
 			reg[6]15
@@ -5870,18 +5870,18 @@ state: 167
 state: 168
 		pc:17
 		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -5894,9 +5894,9 @@ state: 168
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]536838144
+			reg[1]340209378
 			reg[2]10383
-			reg[3]340209378
+			reg[3]536838144
 			reg[4]16384
 			reg[5]15
 			reg[6]15
@@ -5905,18 +5905,18 @@ state: 168
 machine haltedtotal of 168 instructions executedfinal state of machine:
 
 @@@state:		pc:18		memmory:
-			memmory[0]8716309
-			memmory[1]8519699
-			memmory[2]8781844
-			memmory[3]8650773
-			memmory[4]8454162
+			memmory[0]8519699
+			memmory[1]8585234
+			memmory[2]8650773
+			memmory[3]8716309
+			memmory[4]8781844
 			memmory[5]19791883
 			memmory[6]7
 			memmory[7]6422535
 			memmory[8]8323079
 			memmory[9]20447233
-			memmory[10]720899
-			memmory[11]589825
+			memmory[10]1638401
+			memmory[11]1769475
 			memmory[12]7
 			memmory[13]8847381
 			memmory[14]3080197
@@ -5929,9 +5929,9 @@ machine haltedtotal of 168 instructions executedfinal state of machine:
 			memmory[21]1
 		register:
 			reg[0]0
-			reg[1]536838144
+			reg[1]340209378
 			reg[2]10383
-			reg[3]340209378
+			reg[3]536838144
 			reg[4]16384
 			reg[5]15
 			reg[6]15
