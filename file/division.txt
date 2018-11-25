@@ -35,5 +35,5 @@ signbit	.fill	1073741824
 firstbit	.fill	2147483648
 count	.fill	31
 pos1	.fill	1
-div	.fill	2
-quot	.fill	8
+div	.fill	5
+quot	.fill	13
