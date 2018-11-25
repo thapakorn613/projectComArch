@@ -1,7 +1,7 @@
 	lw	0	1	div
 	lw	0	3	quot
-	nand	1	1	1
 	lw	0	5	pos1
+	nand	1	1	1
 	add	1	5	1
 	add	2	0	0
 start	lw	0	5	count
