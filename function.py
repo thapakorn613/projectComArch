@@ -52,7 +52,6 @@ def binToDecimal(str):
             n = n + 1
         return sum
 
-
 def CovertTwocomplement(_Codebit):
     Offset=0
     if(_Codebit[0]=='1'):
